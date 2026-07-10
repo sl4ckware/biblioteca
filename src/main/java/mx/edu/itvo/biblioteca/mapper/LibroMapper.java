@@ -8,7 +8,13 @@ import mx.edu.itvo.biblioteca.dto.response.LibroResponseDTO;
 import mx.edu.itvo.biblioteca.entity.Libro;
 
 /**
- * Mapper para la conversión entre la entidad Libro y sus DTO.
+ * Clase utilitaria encargada de realizar la conversión entre la entidad
+ * {@link Libro} y sus objetos de transferencia de datos (DTO).
+ *
+ * <p>
+ * Esta clase únicamente realiza conversiones de información y no contiene
+ * lógica de negocio ni acceso a la base de datos.
+ * </p>
  *
  * @author Conce
  * @version 1.0
@@ -17,16 +23,17 @@ import mx.edu.itvo.biblioteca.entity.Libro;
 public final class LibroMapper {
 
     /**
-     * Constructor privado.
+     * Constructor privado para evitar la instanciación de la clase.
      */
     private LibroMapper() {
     }
 
     /**
-     * Convierte un Libro a LibroResponseDTO.
+     * Convierte una entidad {@link Libro} en un {@link LibroResponseDTO}.
      *
-     * @param libro entidad.
-     * @return DTO.
+     * @param libro Entidad a convertir.
+     * @return DTO con la información del libro o {@code null} si la entidad es
+     *         nula.
      */
     public static LibroResponseDTO toResponse(Libro libro) {
 
@@ -51,32 +58,37 @@ public final class LibroMapper {
         dto.setFechaCreacion(libro.getFechaCreacion());
         dto.setFechaActualizacion(libro.getFechaActualizacion());
 
+        // Información de la categoría.
         if (libro.getCategoria() != null) {
             dto.setIdCategoria(libro.getCategoria().getIdCategoria());
             dto.setCategoria(libro.getCategoria().getNombre());
         }
 
+        // Información de la editorial.
         if (libro.getEditorial() != null) {
             dto.setIdEditorial(libro.getEditorial().getIdEditorial());
             dto.setEditorial(libro.getEditorial().getNombre());
         }
 
+        // Información del idioma.
         if (libro.getIdioma() != null) {
             dto.setIdIdioma(libro.getIdioma().getIdIdioma());
             dto.setIdioma(libro.getIdioma().getNombre());
         }
 
         return dto;
-
     }
 
     /**
-     * Convierte un RequestDTO a entidad.
+     * Convierte un {@link LibroRequestDTO} en una entidad {@link Libro}.
      *
-     * Las relaciones se asignan posteriormente en el Service.
+     * <p>
+     * Las relaciones con Categoría, Editorial e Idioma no son establecidas en
+     * este método, ya que son responsabilidad de la capa de servicio.
+     * </p>
      *
-     * @param request DTO.
-     * @return entidad.
+     * @param request DTO con la información del libro.
+     * @return Entidad Libro.
      */
     public static Libro toEntity(LibroRequestDTO request) {
 
@@ -98,14 +110,19 @@ public final class LibroMapper {
         libro.setActivo(request.getActivo());
 
         return libro;
-
     }
 
     /**
-     * Actualiza una entidad existente.
+     * Actualiza una entidad {@link Libro} con la información recibida desde el
+     * {@link LibroRequestDTO}.
      *
-     * @param request DTO.
-     * @param libro entidad.
+     * <p>
+     * Las relaciones con otras entidades son administradas por la capa de
+     * servicio.
+     * </p>
+     *
+     * @param request DTO con la nueva información.
+     * @param libro   Entidad que será actualizada.
      */
     public static void updateEntity(
             LibroRequestDTO request,
@@ -125,10 +142,11 @@ public final class LibroMapper {
     }
 
     /**
-     * Convierte una lista de entidades.
+     * Convierte una lista de entidades {@link Libro} en una lista de
+     * {@link LibroResponseDTO}.
      *
-     * @param lista lista de libros.
-     * @return lista de DTO.
+     * @param lista Lista de entidades.
+     * @return Lista de DTO convertidos.
      */
     public static List<LibroResponseDTO> toResponseList(
             List<Libro> lista) {
