@@ -26,8 +26,7 @@ public final class EditorialGenerator {
         for (EditorialCatalog.EditorialItem item
                 : EditorialCatalog.ITEMS) {
 
-            var editorial =
-                    DataFactory.createEditorial();
+            var editorial = DataFactory.createEditorial();
 
             editorial.setNombre(item.nombre());
             editorial.setPais(item.pais());

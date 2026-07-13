@@ -214,6 +214,24 @@ public class Usuario {
         return fechaActualizacion;
     }
 
+    /**
+     * Establece la fecha de creación.
+     *
+     * @param fechaCreacion Fecha de creación.
+     */
+    public void setFechaCreacion(LocalDateTime fechaCreacion) {
+        this.fechaCreacion = fechaCreacion;
+    }
+
+    /**
+     * Establece la fecha de actualización.
+     *
+     * @param fechaActualizacion Fecha de actualización.
+     */
+    public void setFechaActualizacion(LocalDateTime fechaActualizacion) {
+        this.fechaActualizacion = fechaActualizacion;
+    }
+
     public TipoUsuario getTipoUsuario() {
         return tipoUsuario;
     }
