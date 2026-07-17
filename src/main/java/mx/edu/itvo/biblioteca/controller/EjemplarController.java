@@ -1,5 +1,6 @@
 package mx.edu.itvo.biblioteca.controller;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import java.util.List;
 
 import jakarta.validation.Valid;
@@ -22,6 +23,12 @@ import org.springframework.web.bind.annotation.*;
  * @version 2.0
  * @since 1.0
  */
+
+@Tag(
+    name = "📦 Ejemplares",
+    description = "Administración de ejemplares físicos."
+)
+
 @RestController
 @RequestMapping("/api/ejemplares")
 @CrossOrigin(origins = "*")

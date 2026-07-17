@@ -53,12 +53,12 @@ public final class Config {
     /**
      * Cantidad predeterminada de categorías.
      */
-    public static final int DEFAULT_TOTAL_CATEGORIAS = 15;
+    public static final int DEFAULT_TOTAL_CATEGORIAS = 20;
 
     /**
      * Cantidad predeterminada de editoriales.
      */
-    public static final int DEFAULT_TOTAL_EDITORIALES = 20;
+    public static final int DEFAULT_TOTAL_EDITORIALES = 100;
 
     /**
      * Cantidad predeterminada de idiomas.
@@ -68,12 +68,12 @@ public final class Config {
     /**
      * Cantidad predeterminada de autores.
      */
-    public static final int DEFAULT_TOTAL_AUTORES = 250;
+    public static final int DEFAULT_TOTAL_AUTORES = 100;
 
     /**
      * Cantidad predeterminada de libros.
      */
-    public static final int DEFAULT_TOTAL_LIBROS = 500;
+    public static final int DEFAULT_TOTAL_LIBROS = 600;
 
     /**
      * Constructor privado para evitar la creación de instancias.

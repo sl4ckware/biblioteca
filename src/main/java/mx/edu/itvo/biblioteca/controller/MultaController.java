@@ -1,5 +1,6 @@
 package mx.edu.itvo.biblioteca.controller;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import java.util.List;
 
 import jakarta.validation.Valid;
@@ -25,6 +26,12 @@ import org.springframework.web.bind.annotation.*;
  * @version 2.0
  * @since 2.0
  */
+
+@Tag(
+    name = "💰 Multas",
+    description = "Administración de multas generadas por préstamos."
+)
+
 @RestController
 @RequestMapping("/api/multas")
 public class MultaController {

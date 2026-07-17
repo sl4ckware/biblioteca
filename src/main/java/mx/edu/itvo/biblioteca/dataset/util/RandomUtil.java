@@ -112,5 +112,7 @@ public final class RandomUtil {
 
         return elementos[nextInt(elementos.length)];
     }
+    
+    
 
 }

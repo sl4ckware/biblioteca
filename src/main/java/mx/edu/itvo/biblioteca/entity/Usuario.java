@@ -69,6 +69,12 @@ public class Usuario {
     @Size(max = 150)
     @Column(name = "CORREO", unique = true, length = 150)
     private String correo;
+    
+    /**
+     * Contraseña cifrada del usuario.
+     */
+    @Column(name = "password", nullable = false, length = 255)
+    private String password;
 
     /**
      * Teléfono de contacto.
@@ -188,6 +194,14 @@ public class Usuario {
 
     public void setCorreo(String correo) {
         this.correo = correo;
+    }
+    
+    public String getPassword() {
+    return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getTelefono() {

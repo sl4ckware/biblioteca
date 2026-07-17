@@ -1,9 +1,11 @@
 package mx.edu.itvo.biblioteca.dataset.factory;
 
 import mx.edu.itvo.biblioteca.dataset.model.AbstractData;
+import mx.edu.itvo.biblioteca.dataset.model.AutorData;
 import mx.edu.itvo.biblioteca.dataset.model.CategoriaData;
 import mx.edu.itvo.biblioteca.dataset.model.EditorialData;
 import mx.edu.itvo.biblioteca.dataset.model.IdiomaData;
+import mx.edu.itvo.biblioteca.dataset.model.LibroAutorData;
 import mx.edu.itvo.biblioteca.dataset.model.LibroData;
 import mx.edu.itvo.biblioteca.dataset.util.DateUtil;
 
@@ -76,6 +78,17 @@ public final class DataFactory {
     }
 
     /**
+     * Crea un autor inicializado.
+     *
+     * @return Autor.
+     */
+    public static AutorData createAutor() {
+
+        return initialize(new AutorData());
+
+    }
+
+    /**
      * Crea un libro inicializado.
      *
      * @return Libro.
@@ -83,6 +96,17 @@ public final class DataFactory {
     public static LibroData createLibro() {
 
         return initialize(new LibroData());
+
+    }
+
+    /**
+     * Crea una relación Libro-Autor inicializada.
+     *
+     * @return Relación Libro-Autor.
+     */
+    public static LibroAutorData createLibroAutor() {
+
+        return initialize(new LibroAutorData());
 
     }
 

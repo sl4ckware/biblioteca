@@ -1,0 +1,20230 @@
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+
+INSERT INTO LIBRO_AUTOR
+(
+    ACTIVO,
+    FECHA_CREACION,
+    FECHA_ACTUALIZACION,
+    ID_LIBRO,
+    ID_AUTOR
+)
+VALUES
+(
+    1,
+    '2026-07-15 22:06:20',
+    '2026-07-15 22:06:20',
+    null,
+    null
+);
+

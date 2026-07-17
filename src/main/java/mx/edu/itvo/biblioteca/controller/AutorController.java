@@ -1,7 +1,6 @@
 package mx.edu.itvo.biblioteca.controller;
 
 import java.util.List;
-
 import jakarta.validation.Valid;
 
 import mx.edu.itvo.biblioteca.dto.common.ApiResponse;
@@ -13,6 +12,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
+
 /**
  * Controlador REST para la gestión de autores.
  *
@@ -20,6 +21,11 @@ import org.springframework.web.bind.annotation.*;
  * @version 1.0
  * @since 1.0
  */
+
+@Tag(
+    name = "👤 Autores",
+    description = "Administración del catálogo de autores."
+)
 @RestController
 @RequestMapping("/api/autores")
 @CrossOrigin(origins = "*")

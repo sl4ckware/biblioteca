@@ -1,28 +1,30 @@
 package mx.edu.itvo.biblioteca.dataset.model;
 
 /**
- * Representa la relación entre un libro y un autor.
+ * Representa la relación entre un libro y un autor utilizada por el
+ * Dataset Generator.
  *
  * <p>
- * Esta clase modela los registros que serán insertados en la tabla
- * libro_autor durante la generación del dataset.
+ * Esta clase constituye un Mirror Model de la entidad LibroAutor del
+ * backend y permite generar los registros de la tabla intermedia
+ * libro_autor sin depender de JPA.
  * </p>
  *
  * @author Conce
  * @version 1.0
  * @since 1.0
  */
-public class LibroAutorData {
+public class LibroAutorData extends AbstractData {
 
     /**
-     * ISBN-13 del libro.
+     * Libro asociado.
      */
-    private String isbn13;
+    private LibroData libro;
 
     /**
-     * Identificador del autor.
+     * Autor asociado.
      */
-    private Integer idAutor;
+    private AutorData autor;
 
     /**
      * Constructor vacío.
@@ -31,48 +33,68 @@ public class LibroAutorData {
     }
 
     /**
-     * Obtiene el ISBN del libro.
+     * Obtiene el libro.
      *
-     * @return ISBN.
+     * @return Libro.
      */
-    public String getIsbn13() {
-        return isbn13;
+    public LibroData getLibro() {
+        return libro;
     }
 
     /**
-     * Establece el ISBN del libro.
+     * Establece el libro.
      *
-     * @param isbn13 ISBN.
+     * @param libro Libro.
      */
-    public void setIsbn13(String isbn13) {
-        this.isbn13 = isbn13;
+    public void setLibro(
+            LibroData libro) {
+
+        this.libro = libro;
+
     }
 
     /**
-     * Obtiene el identificador del autor.
+     * Obtiene el autor.
      *
-     * @return Identificador.
+     * @return Autor.
      */
-    public Integer getIdAutor() {
-        return idAutor;
+    public AutorData getAutor() {
+        return autor;
     }
 
     /**
-     * Establece el identificador del autor.
+     * Establece el autor.
      *
-     * @param idAutor Identificador.
+     * @param autor Autor.
      */
-    public void setIdAutor(Integer idAutor) {
-        this.idAutor = idAutor;
+    public void setAutor(
+            AutorData autor) {
+
+        this.autor = autor;
+
     }
 
+    /**
+     * Devuelve una representación textual del objeto.
+     *
+     * @return Información de la relación.
+     */
     @Override
     public String toString() {
 
-        return "LibroAutorData{" +
-                "isbn13='" + isbn13 + '\'' +
-                ", idAutor=" + idAutor +
-                '}';
+        return "LibroAutorData{"
+                + "sequence=" + getSequence()
+                + ", libro="
+                + (libro != null
+                        ? libro.getSequence()
+                        : null)
+                + ", autor="
+                + (autor != null
+                        ? autor.getSequence()
+                        : null)
+                + ", activo="
+                + getActivo()
+                + '}';
 
     }
 
