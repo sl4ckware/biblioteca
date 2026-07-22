@@ -1,84 +1,103 @@
 package mx.edu.itvo.biblioteca.dto.request;
 
-import java.time.LocalDate;
-
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
 /**
  * DTO utilizado para registrar un préstamo.
  *
+ * <p>
+ * Contiene la información mínima requerida para registrar
+ * el préstamo de un ejemplar a un usuario.
+ * </p>
+ *
  * @author Conce
- * @version 2.0
- * @since 1.0
+ * @version 1.0
+ * @since Sprint 17
  */
 public class PrestamoRequestDTO {
 
     /**
-     * Usuario que realiza el préstamo.
+     * Identificador del usuario.
      */
-    @NotNull(message = "El usuario es obligatorio.")
+    @NotNull
     private Integer idUsuario;
 
     /**
-     * Ejemplar solicitado.
+     * Identificador del ejemplar.
      */
-    @NotNull(message = "El ejemplar es obligatorio.")
+    @NotNull
     private Integer idEjemplar;
 
     /**
-     * Fecha del préstamo.
+     * Identificador del bibliotecario.
      */
-    @NotNull(message = "La fecha del préstamo es obligatoria.")
-    private LocalDate fechaPrestamo;
+    @NotNull
+    private Integer idBibliotecario;
 
     /**
-     * Fecha programada de devolución.
-     */
-    @NotNull(message = "La fecha de devolución es obligatoria.")
-    private LocalDate fechaDevolucionProgramada;
-
-    /**
-     * Observaciones.
+     * Observaciones del préstamo.
      */
     @Size(max = 255)
     private String observaciones;
 
+    /**
+     * Constructor vacío.
+     */
     public PrestamoRequestDTO() {
+    }
+
+    /**
+     * Constructor con parámetros.
+     *
+     * @param idUsuario Usuario.
+     * @param idEjemplar Ejemplar.
+     * @param idBibliotecario Bibliotecario.
+     * @param observaciones Observaciones.
+     */
+    public PrestamoRequestDTO(
+            Integer idUsuario,
+            Integer idEjemplar,
+            Integer idBibliotecario,
+            String observaciones) {
+
+        this.idUsuario = idUsuario;
+        this.idEjemplar = idEjemplar;
+        this.idBibliotecario = idBibliotecario;
+        this.observaciones = observaciones;
+
     }
 
     public Integer getIdUsuario() {
         return idUsuario;
     }
 
-    public void setIdUsuario(Integer idUsuario) {
+    public void setIdUsuario(
+            Integer idUsuario) {
+
         this.idUsuario = idUsuario;
+
     }
 
     public Integer getIdEjemplar() {
         return idEjemplar;
     }
 
-    public void setIdEjemplar(Integer idEjemplar) {
+    public void setIdEjemplar(
+            Integer idEjemplar) {
+
         this.idEjemplar = idEjemplar;
+
     }
 
-    public LocalDate getFechaPrestamo() {
-        return fechaPrestamo;
+    public Integer getIdBibliotecario() {
+        return idBibliotecario;
     }
 
-    public void setFechaPrestamo(LocalDate fechaPrestamo) {
-        this.fechaPrestamo = fechaPrestamo;
-    }
+    public void setIdBibliotecario(
+            Integer idBibliotecario) {
 
-    public LocalDate getFechaDevolucionProgramada() {
-        return fechaDevolucionProgramada;
-    }
-
-    public void setFechaDevolucionProgramada(
-            LocalDate fechaDevolucionProgramada) {
-
-        this.fechaDevolucionProgramada = fechaDevolucionProgramada;
+        this.idBibliotecario = idBibliotecario;
 
     }
 
@@ -86,8 +105,11 @@ public class PrestamoRequestDTO {
         return observaciones;
     }
 
-    public void setObservaciones(String observaciones) {
+    public void setObservaciones(
+            String observaciones) {
+
         this.observaciones = observaciones;
+
     }
 
 }

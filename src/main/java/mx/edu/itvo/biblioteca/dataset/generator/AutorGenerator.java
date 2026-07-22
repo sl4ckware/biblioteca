@@ -16,7 +16,7 @@ import mx.edu.itvo.biblioteca.dataset.util.RandomUtil;
  * Genera autores aleatorios para el Dataset Generator.
  *
  * @author Conce
- * @version 1.0
+ * @version 2.0
  * @since 1.0
  */
 public final class AutorGenerator {
@@ -37,12 +37,17 @@ public final class AutorGenerator {
         List<AutorData> autores =
                 new ArrayList<>();
 
+        int sequence = 1;
+
         for (int i = 0;
                 i < Config.DEFAULT_TOTAL_AUTORES;
                 i++) {
 
             AutorData autor =
                     DataFactory.createAutor();
+
+            autor.setSequence(
+                    sequence++);
 
             autor.setNombre(
                     NameData.nombre());
@@ -72,7 +77,8 @@ public final class AutorGenerator {
                                     1,
                                     28)));
 
-            autores.add(autor);
+            autores.add(
+                    autor);
 
         }
 

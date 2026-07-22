@@ -8,7 +8,7 @@ import mx.edu.itvo.biblioteca.dataset.model.LibroData;
  * Convierte un libro del Dataset en una sentencia SQL.
  *
  * @author Conce
- * @version 1.0
+ * @version 1.1
  * @since 1.0
  */
 public final class LibroSqlMapper {
@@ -36,23 +36,23 @@ public final class LibroSqlMapper {
             LibroData libro) {
 
         return """
-            INSERT INTO LIBRO
+            INSERT INTO libro
             (
-                ISBN13,
-                TITULO,
-                SUBTITULO,
-                NUMERO_EDICION,
-                FECHA_PUBLICACION,
-                NUMERO_PAGINAS,
-                CLASIFICACION,
-                SINOPSIS,
-                IMAGEN_PORTADA,
-                ACTIVO,
-                FECHA_CREACION,
-                FECHA_ACTUALIZACION,
-                ID_EDITORIAL,
-                ID_CATEGORIA,
-                ID_IDIOMA
+                isbn13,
+                titulo,
+                subtitulo,
+                numero_edicion,
+                fecha_publicacion,
+                numero_paginas,
+                clasificacion,
+                sinopsis,
+                imagen_portada,
+                activo,
+                fecha_creacion,
+                fecha_actualizacion,
+                id_editorial,
+                id_categoria,
+                id_idioma
             )
             VALUES
             (
@@ -74,11 +74,14 @@ public final class LibroSqlMapper {
             );
             """.formatted(
 
-                escape(libro.getIsbn13()),
+                escape(
+                        libro.getIsbn13()),
 
-                escape(libro.getTitulo()),
+                escape(
+                        libro.getTitulo()),
 
-                escape(libro.getSubtitulo()),
+                escape(
+                        libro.getSubtitulo()),
 
                 libro.getNumeroEdicion(),
 
@@ -86,19 +89,26 @@ public final class LibroSqlMapper {
 
                 libro.getNumeroPaginas(),
 
-                escape(libro.getClasificacion()),
+                escape(
+                        libro.getClasificacion()),
 
-                escape(libro.getSinopsis()),
+                escape(
+                        libro.getSinopsis()),
 
-                escape(libro.getImagenPortada()),
+                escape(
+                        libro.getImagenPortada()),
 
-                libro.getActivo() ? 1 : 0,
+                libro.getActivo()
+                        ? 1
+                        : 0,
 
                 libro.getFechaCreacion()
-                        .format(FORMATTER),
+                        .format(
+                                FORMATTER),
 
                 libro.getFechaActualizacion()
-                        .format(FORMATTER),
+                        .format(
+                                FORMATTER),
 
                 libro.getEditorial()
                         .getSequence(),
@@ -124,7 +134,9 @@ public final class LibroSqlMapper {
             return "";
         }
 
-        return value.replace("'", "''");
+        return value.replace(
+                "'",
+                "''");
 
     }
 

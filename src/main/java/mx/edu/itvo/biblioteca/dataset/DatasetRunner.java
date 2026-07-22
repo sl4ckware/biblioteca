@@ -2,36 +2,55 @@ package mx.edu.itvo.biblioteca.dataset;
 
 import java.io.IOException;
 
+import mx.edu.itvo.biblioteca.dataset.catalog.EstadoEjemplarCatalog;
 import mx.edu.itvo.biblioteca.dataset.config.Config;
 import mx.edu.itvo.biblioteca.dataset.generator.AutorGenerator;
 import mx.edu.itvo.biblioteca.dataset.generator.CategoriaGenerator;
 import mx.edu.itvo.biblioteca.dataset.generator.EditorialGenerator;
+import mx.edu.itvo.biblioteca.dataset.generator.EjemplarGenerator;
+import mx.edu.itvo.biblioteca.dataset.generator.EstadoEjemplarGenerator;
+import mx.edu.itvo.biblioteca.dataset.generator.EstadoUsuarioGenerator;
 import mx.edu.itvo.biblioteca.dataset.generator.IdiomaGenerator;
 import mx.edu.itvo.biblioteca.dataset.generator.LibroAutorGenerator;
 import mx.edu.itvo.biblioteca.dataset.generator.LibroGenerator;
+import mx.edu.itvo.biblioteca.dataset.generator.TipoUsuarioGenerator;
+import mx.edu.itvo.biblioteca.dataset.generator.UsuarioGenerator;
 import mx.edu.itvo.biblioteca.dataset.mapper.AutorSqlMapper;
 import mx.edu.itvo.biblioteca.dataset.mapper.CategoriaSqlMapper;
 import mx.edu.itvo.biblioteca.dataset.mapper.EditorialSqlMapper;
+import mx.edu.itvo.biblioteca.dataset.mapper.EjemplarSqlMapper;
+import mx.edu.itvo.biblioteca.dataset.mapper.EstadoEjemplarSqlMapper;
+import mx.edu.itvo.biblioteca.dataset.mapper.EstadoUsuarioSqlMapper;
 import mx.edu.itvo.biblioteca.dataset.mapper.IdiomaSqlMapper;
 import mx.edu.itvo.biblioteca.dataset.mapper.LibroAutorSqlMapper;
 import mx.edu.itvo.biblioteca.dataset.mapper.LibroSqlMapper;
-import mx.edu.itvo.biblioteca.dataset.writer.SqlWriter;
+import mx.edu.itvo.biblioteca.dataset.mapper.TipoUsuarioSqlMapper;
+import mx.edu.itvo.biblioteca.dataset.mapper.UsuarioSqlMapper;
+import mx.edu.itvo.biblioteca.dataset.runner.DatasetExecutor;
+import mx.edu.itvo.biblioteca.dataset.util.DatasetIndexUtil;
 
 /**
  * Punto de entrada del Dataset Generator.
  *
  * @author Conce
- * @version 1.0
+ * @version 3.1
  * @since 1.0
  */
-public class DatasetRunner {
+public final class DatasetRunner {
 
     /**
-     * Punto de entrada del Dataset Generator.
+     * Constructor privado.
+     */
+    private DatasetRunner() {
+    }
+
+    /**
+     * Punto de entrada.
      *
      * @param args Argumentos de línea de comandos.
      */
-    public static void main(String[] args) {
+    public static void main(
+            String[] args) {
 
         System.out.println("-------------------------------------");
         System.out.println(" Biblioteca Dataset Generator");
@@ -45,17 +64,11 @@ public class DatasetRunner {
              * ==========================================
              */
             var categorias =
-                    CategoriaGenerator.generar();
-
-            SqlWriter.write(
-                    Config.FILE_CATEGORIAS,
-                    categorias,
-                    CategoriaSqlMapper::toSql);
-
-            System.out.println();
-            System.out.println(
-                    "Categorías generadas: "
-                    + categorias.size());
+                    DatasetExecutor.execute(
+                            CategoriaGenerator::generar,
+                            Config.FILE_CATEGORIAS,
+                            CategoriaSqlMapper::toSql,
+                            "Categorías generadas: ");
 
             /*
              * ==========================================
@@ -63,17 +76,11 @@ public class DatasetRunner {
              * ==========================================
              */
             var editoriales =
-                    EditorialGenerator.generar();
-
-            SqlWriter.write(
-                    Config.FILE_EDITORIALES,
-                    editoriales,
-                    EditorialSqlMapper::toSql);
-
-            System.out.println();
-            System.out.println(
-                    "Editoriales generadas: "
-                    + editoriales.size());
+                    DatasetExecutor.execute(
+                            EditorialGenerator::generar,
+                            Config.FILE_EDITORIALES,
+                            EditorialSqlMapper::toSql,
+                            "Editoriales generadas: ");
 
             /*
              * ==========================================
@@ -81,17 +88,11 @@ public class DatasetRunner {
              * ==========================================
              */
             var idiomas =
-                    IdiomaGenerator.generar();
-
-            SqlWriter.write(
-                    Config.FILE_IDIOMAS,
-                    idiomas,
-                    IdiomaSqlMapper::toSql);
-
-            System.out.println();
-            System.out.println(
-                    "Idiomas generados: "
-                    + idiomas.size());
+                    DatasetExecutor.execute(
+                            IdiomaGenerator::generar,
+                            Config.FILE_IDIOMAS,
+                            IdiomaSqlMapper::toSql,
+                            "Idiomas generados: ");
 
             /*
              * ==========================================
@@ -99,17 +100,11 @@ public class DatasetRunner {
              * ==========================================
              */
             var autores =
-                    AutorGenerator.generar();
-
-            SqlWriter.write(
-                    Config.FILE_AUTORES,
-                    autores,
-                    AutorSqlMapper::toSql);
-
-            System.out.println();
-            System.out.println(
-                    "Autores generados: "
-                    + autores.size());
+                    DatasetExecutor.execute(
+                            AutorGenerator::generar,
+                            Config.FILE_AUTORES,
+                            AutorSqlMapper::toSql,
+                            "Autores generados: ");
 
             /*
              * ==========================================
@@ -117,40 +112,95 @@ public class DatasetRunner {
              * ==========================================
              */
             var libros =
-                    LibroGenerator.generar(
-                            categorias,
-                            editoriales,
-                            idiomas);
-
-            SqlWriter.write(
-                    Config.FILE_LIBROS,
-                    libros,
-                    LibroSqlMapper::toSql);
-
-            System.out.println();
-            System.out.println(
-                    "Libros generados: "
-                    + libros.size());
+                    DatasetExecutor.execute(
+                            () -> LibroGenerator.generar(
+                                    categorias,
+                                    editoriales,
+                                    idiomas),
+                            Config.FILE_LIBROS,
+                            LibroSqlMapper::toSql,
+                            "Libros generados: ");
 
             /*
              * ==========================================
              * Libro - Autor
              * ==========================================
              */
-            var libroAutores =
-                    LibroAutorGenerator.generar(
+            DatasetExecutor.execute(
+                    () -> LibroAutorGenerator.generar(
                             libros,
-                            autores);
-
-            SqlWriter.write(
+                            autores),
                     Config.FILE_LIBRO_AUTOR,
-                    libroAutores,
-                    LibroAutorSqlMapper::toSql);
+                    LibroAutorSqlMapper::toSql,
+                    "Relaciones Libro-Autor generadas: ");
 
-            System.out.println();
-            System.out.println(
-                    "Relaciones Libro-Autor generadas: "
-                    + libroAutores.size());
+            /*
+             * ==========================================
+             * Estados de Ejemplar
+             * ==========================================
+             */
+            var estadosEjemplar =
+                    DatasetExecutor.execute(
+                            EstadoEjemplarGenerator::generar,
+                            Config.FILE_ESTADO_EJEMPLAR,
+                            EstadoEjemplarSqlMapper::toSql,
+                            "Estados de ejemplar generados: ");
+
+            var indiceEstados =
+                    DatasetIndexUtil.indexEstadoEjemplar(
+                            estadosEjemplar);
+
+            /*
+             * ==========================================
+             * Ejemplares
+             * ==========================================
+             */
+            DatasetExecutor.execute(
+                    () -> EjemplarGenerator.generar(
+                            libros,
+                            indiceEstados.get(
+                                    EstadoEjemplarCatalog
+                                            .NOMBRE_DISPONIBLE)),
+                    Config.FILE_EJEMPLARES,
+                    EjemplarSqlMapper::toSql,
+                    "Ejemplares generados: ");
+
+            /*
+             * ==========================================
+             * Tipos de Usuario
+             * ==========================================
+             */
+            var tiposUsuario =
+                    DatasetExecutor.execute(
+                            TipoUsuarioGenerator::generar,
+                            Config.FILE_TIPO_USUARIO,
+                            TipoUsuarioSqlMapper::toSql,
+                            "Tipos de usuario generados: ");
+
+            /*
+             * ==========================================
+             * Estados de Usuario
+             * ==========================================
+             */
+            var estadosUsuario =
+                    DatasetExecutor.execute(
+                            EstadoUsuarioGenerator::generar,
+                            Config.FILE_ESTADO_USUARIO,
+                            EstadoUsuarioSqlMapper::toSql,
+                            "Estados de usuario generados: ");
+
+            /*
+             * ==========================================
+             * Usuarios
+             * ==========================================
+             */
+            DatasetExecutor.execute(
+                    () -> UsuarioGenerator.generar(
+                            tiposUsuario,
+                            estadosUsuario),
+                    Config.FILE_USUARIOS,
+                    UsuarioSqlMapper::toSql,
+                    "Usuarios generados: ");
 
             System.out.println();
             System.out.println("-------------------------------------");

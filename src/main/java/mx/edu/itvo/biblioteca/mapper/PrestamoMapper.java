@@ -5,47 +5,71 @@ import java.util.stream.Collectors;
 
 import mx.edu.itvo.biblioteca.dto.request.PrestamoRequestDTO;
 import mx.edu.itvo.biblioteca.dto.response.PrestamoResponseDTO;
+import mx.edu.itvo.biblioteca.entity.Ejemplar;
 import mx.edu.itvo.biblioteca.entity.Prestamo;
+import mx.edu.itvo.biblioteca.entity.Usuario;
 
 /**
- * Clase encargada de convertir objetos entre la entidad Prestamo
- * y sus diferentes DTO.
+ * Mapper de la entidad Prestamo.
+ *
+ * <p>
+ * Convierte entre la entidad Prestamo y los DTO
+ * utilizados por la API REST.
+ * </p>
  *
  * @author Conce
- * @version 2.0
- * @since 1.0
+ * @version 4.0
+ * @since Sprint 17
  */
 public final class PrestamoMapper {
 
     /**
-     * Constructor privado para evitar instanciación.
+     * Constructor privado.
      */
     private PrestamoMapper() {
     }
 
     /**
-     * Convierte un RequestDTO en una entidad.
+     * Convierte un RequestDTO en entidad.
      *
-     * @param dto DTO recibido desde la API.
+     * @param request DTO recibido.
      * @return Entidad Prestamo.
      */
     public static Prestamo toEntity(
-            PrestamoRequestDTO dto) {
+            PrestamoRequestDTO request) {
 
-        if (dto == null) {
-            return null;
-        }
+        Prestamo prestamo =
+                new Prestamo();
 
-        Prestamo prestamo = new Prestamo();
+        Usuario usuario =
+                new Usuario();
 
-        prestamo.setFechaPrestamo(
-                dto.getFechaPrestamo());
+        usuario.setIdUsuario(
+                request.getIdUsuario());
 
-        prestamo.setFechaDevolucionProgramada(
-                dto.getFechaDevolucionProgramada());
+        Ejemplar ejemplar =
+                new Ejemplar();
+
+        ejemplar.setIdEjemplar(
+                request.getIdEjemplar());
+
+        Usuario bibliotecario =
+                new Usuario();
+
+        bibliotecario.setIdUsuario(
+                request.getIdBibliotecario());
+
+        prestamo.setUsuario(
+                usuario);
+
+        prestamo.setEjemplar(
+                ejemplar);
+
+        prestamo.setBibliotecario(
+                bibliotecario);
 
         prestamo.setObservaciones(
-                dto.getObservaciones());
+                request.getObservaciones());
 
         return prestamo;
 
@@ -55,159 +79,110 @@ public final class PrestamoMapper {
      * Convierte una entidad en un ResponseDTO.
      *
      * @param prestamo Entidad.
-     * @return ResponseDTO.
+     * @return DTO.
      */
-    public static PrestamoResponseDTO toResponse(
+    public static PrestamoResponseDTO toResponseDTO(
             Prestamo prestamo) {
 
-        if (prestamo == null) {
-            return null;
-        }
-
-        PrestamoResponseDTO dto =
+        PrestamoResponseDTO response =
                 new PrestamoResponseDTO();
 
-        dto.setIdPrestamo(
+        response.setIdPrestamo(
                 prestamo.getIdPrestamo());
 
-        dto.setFolio(
+        response.setFolio(
                 prestamo.getFolio());
 
-        dto.setFechaPrestamo(
+        response.setMatriculaUsuario(
+                prestamo.getUsuario()
+                        .getMatricula());
+
+        response.setNombreUsuario(
+
+                prestamo.getUsuario()
+                        .getNombre()
+
+                + " "
+
+                + prestamo.getUsuario()
+                        .getApellidoPaterno()
+
+                + " "
+
+                + prestamo.getUsuario()
+                        .getApellidoMaterno());
+
+        response.setCodigoEjemplar(
+
+                prestamo.getEjemplar()
+                        .getCodigoInventario());
+
+        response.setTituloLibro(
+
+                prestamo.getEjemplar()
+                        .getLibro()
+                        .getTitulo());
+
+        response.setMatriculaBibliotecario(
+
+                prestamo.getBibliotecario()
+                        .getMatricula());
+
+        response.setNombreBibliotecario(
+
+                prestamo.getBibliotecario()
+                        .getNombre()
+
+                + " "
+
+                + prestamo.getBibliotecario()
+                        .getApellidoPaterno()
+
+                + " "
+
+                + prestamo.getBibliotecario()
+                        .getApellidoMaterno());
+
+        response.setFechaPrestamo(
                 prestamo.getFechaPrestamo());
 
-        dto.setFechaDevolucionProgramada(
+        response.setFechaDevolucionProgramada(
                 prestamo.getFechaDevolucionProgramada());
 
-        dto.setFechaDevolucionReal(
+        response.setFechaDevolucionReal(
                 prestamo.getFechaDevolucionReal());
 
-        dto.setObservaciones(
-                prestamo.getObservaciones());
+        response.setEstado(
 
-        dto.setActivo(
-                prestamo.getActivo());
+                prestamo.getEstadoPrestamo()
+                        .getNombre());
 
-        dto.setFechaCreacion(
-                prestamo.getFechaCreacion());
+        response.setDevuelto(
+                prestamo.isDevuelto());
 
-        dto.setFechaActualizacion(
-                prestamo.getFechaActualizacion());
+        response.setVencido(
+                prestamo.estaVencido());
 
-        /*
-         * Usuario
-         */
-        if (prestamo.getUsuario() != null) {
-
-            dto.setIdUsuario(
-                    prestamo.getUsuario().getIdUsuario());
-
-            dto.setMatricula(
-                    prestamo.getUsuario().getMatricula());
-
-            StringBuilder nombreCompleto =
-                    new StringBuilder();
-
-            nombreCompleto.append(
-                    prestamo.getUsuario().getNombre());
-
-            nombreCompleto.append(" ");
-
-            nombreCompleto.append(
-                    prestamo.getUsuario()
-                            .getApellidoPaterno());
-
-            if (prestamo.getUsuario()
-                    .getApellidoMaterno() != null
-                    && !prestamo.getUsuario()
-                            .getApellidoMaterno()
-                            .isBlank()) {
-
-                nombreCompleto.append(" ");
-
-                nombreCompleto.append(
-                        prestamo.getUsuario()
-                                .getApellidoMaterno());
-
-            }
-
-            dto.setNombreCompleto(
-                    nombreCompleto.toString());
-
-        }
-
-        /*
-         * Ejemplar
-         */
-        if (prestamo.getEjemplar() != null) {
-
-            dto.setIdEjemplar(
-                    prestamo.getEjemplar()
-                            .getIdEjemplar());
-
-            dto.setCodigoInventario(
-                    prestamo.getEjemplar()
-                            .getCodigoInventario());
-
-            /*
-             * Libro
-             */
-            if (prestamo.getEjemplar()
-                    .getLibro() != null) {
-
-                dto.setIdLibro(
-                        prestamo.getEjemplar()
-                                .getLibro()
-                                .getIdLibro());
-
-                dto.setTituloLibro(
-                        prestamo.getEjemplar()
-                                .getLibro()
-                                .getTitulo());
-
-            }
-
-        }
-
-        return dto;
+        return response;
 
     }
 
     /**
      * Convierte una lista de entidades
-     * en una lista de ResponseDTO.
+     * en una lista de DTOs.
      *
-     * @param prestamos Lista de entidades.
-     * @return Lista de ResponseDTO.
+     * @param prestamos Lista de préstamos.
+     * @return Lista de DTOs.
      */
-    public static List<PrestamoResponseDTO> toResponseList(
-            List<Prestamo> prestamos) {
+    public static List<PrestamoResponseDTO>
+            toResponseList(
+                    List<Prestamo> prestamos) {
 
         return prestamos.stream()
-                .map(PrestamoMapper::toResponse)
-                .collect(Collectors.toList());
-
-    }
-
-    /**
-     * Actualiza una entidad existente
-     * utilizando un RequestDTO.
-     *
-     * @param dto DTO recibido.
-     * @param prestamo Entidad existente.
-     */
-    public static void updateEntity(
-            PrestamoRequestDTO dto,
-            Prestamo prestamo) {
-
-        prestamo.setFechaPrestamo(
-                dto.getFechaPrestamo());
-
-        prestamo.setFechaDevolucionProgramada(
-                dto.getFechaDevolucionProgramada());
-
-        prestamo.setObservaciones(
-                dto.getObservaciones());
+                .map(
+                        PrestamoMapper::toResponseDTO)
+                .collect(
+                        Collectors.toList());
 
     }
 

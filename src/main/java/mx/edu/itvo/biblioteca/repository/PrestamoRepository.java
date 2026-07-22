@@ -4,20 +4,24 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
-import mx.edu.itvo.biblioteca.entity.Prestamo;
-
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import mx.edu.itvo.biblioteca.entity.Prestamo;
 
 /**
  * Repositorio para la gestión de préstamos.
  *
- * Permite realizar operaciones de acceso a datos
- * sobre la entidad Prestamo.
+ * <p>
+ * Permite realizar operaciones de acceso a datos sobre la
+ * entidad {@link Prestamo}, incluyendo consultas para
+ * préstamos activos, historial de usuarios, devoluciones
+ * y préstamos vencidos.
+ * </p>
  *
  * @author Conce
- * @version 2.0
- * @since 1.0
+ * @version 3.0
+ * @since Sprint 17
  */
 @Repository
 public interface PrestamoRepository
@@ -29,40 +33,75 @@ public interface PrestamoRepository
      * @param folio Folio del préstamo.
      * @return Préstamo encontrado.
      */
-    Optional<Prestamo> findByFolio(String folio);
+    Optional<Prestamo> findByFolio(
+            String folio);
 
     /**
-     * Verifica si existe un folio.
+     * Verifica si existe un folio registrado.
      *
      * @param folio Folio.
      * @return true si existe.
      */
-    boolean existsByFolio(String folio);
+    boolean existsByFolio(
+            String folio);
 
     /**
-     * Obtiene únicamente los préstamos activos.
+     * Obtiene únicamente los préstamos activos
+     * administrativamente.
      *
      * @return Lista de préstamos.
      */
     List<Prestamo> findByActivoTrue();
 
     /**
-     * Obtiene los préstamos de un usuario.
+     * Obtiene el historial de préstamos de un usuario,
+     * ordenado del más reciente al más antiguo.
      *
      * @param idUsuario Identificador del usuario.
-     * @return Lista de préstamos.
+     * @return Historial de préstamos.
      */
-    List<Prestamo> findByUsuarioIdUsuario(
+    List<Prestamo> findByUsuarioIdUsuarioOrderByFechaPrestamoDesc(
             Integer idUsuario);
 
     /**
-     * Obtiene los préstamos de un ejemplar.
+     * Obtiene únicamente los préstamos activos
+     * de un usuario.
+     *
+     * @param idUsuario Identificador del usuario.
+     * @return Lista de préstamos activos.
+     */
+    List<Prestamo> findByUsuarioIdUsuarioAndFechaDevolucionRealIsNull(
+            Integer idUsuario);
+
+    /**
+     * Obtiene todos los préstamos registrados para un
+     * ejemplar.
      *
      * @param idEjemplar Identificador del ejemplar.
      * @return Lista de préstamos.
      */
     List<Prestamo> findByEjemplarIdEjemplar(
             Integer idEjemplar);
+
+    /**
+     * Obtiene el préstamo activo de un ejemplar.
+     *
+     * @param idEjemplar Identificador del ejemplar.
+     * @return Préstamo activo.
+     */
+    Optional<Prestamo>
+            findByEjemplarIdEjemplarAndFechaDevolucionRealIsNull(
+                    Integer idEjemplar);
+
+    /**
+     * Obtiene los préstamos registrados por un
+     * bibliotecario.
+     *
+     * @param idUsuario Identificador del bibliotecario.
+     * @return Lista de préstamos.
+     */
+    List<Prestamo> findByBibliotecarioIdUsuario(
+            Integer idUsuario);
 
     /**
      * Obtiene los préstamos realizados en una fecha.
@@ -74,13 +113,15 @@ public interface PrestamoRepository
             LocalDate fecha);
 
     /**
-     * Obtiene los préstamos vencidos.
+     * Obtiene los préstamos vencidos que aún
+     * no han sido devueltos.
      *
      * @param fecha Fecha de comparación.
-     * @return Lista de préstamos.
+     * @return Lista de préstamos vencidos.
      */
-    List<Prestamo> findByFechaDevolucionProgramadaBefore(
-            LocalDate fecha);
+    List<Prestamo>
+            findByFechaDevolucionProgramadaBeforeAndFechaDevolucionRealIsNull(
+                    LocalDate fecha);
 
     /**
      * Obtiene los préstamos pendientes de devolución.
@@ -93,7 +134,7 @@ public interface PrestamoRepository
      * Verifica si un ejemplar tiene un préstamo activo.
      *
      * @param idEjemplar Identificador del ejemplar.
-     * @return true si existe.
+     * @return true si existe un préstamo activo.
      */
     boolean existsByEjemplarIdEjemplarAndFechaDevolucionRealIsNull(
             Integer idEjemplar);

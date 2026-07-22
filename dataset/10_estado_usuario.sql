@@ -1,0 +1,5 @@
+INSERT INTO estado_usuario (nombre, descripcion, fecha_creacion, fecha_actualizacion) VALUES ('Activo', 'Usuario habilitado para utilizar la biblioteca.', '2026-07-20T11:25:45.879834', '2026-07-20T11:25:45.879837');
+INSERT INTO estado_usuario (nombre, descripcion, fecha_creacion, fecha_actualizacion) VALUES ('Suspendido', 'Usuario suspendido temporalmente.', '2026-07-20T11:25:45.879847', '2026-07-20T11:25:45.879847');
+INSERT INTO estado_usuario (nombre, descripcion, fecha_creacion, fecha_actualizacion) VALUES ('Bloqueado', 'Usuario bloqueado por adeudos o sanciones.', '2026-07-20T11:25:45.879847', '2026-07-20T11:25:45.879848');
+INSERT INTO estado_usuario (nombre, descripcion, fecha_creacion, fecha_actualizacion) VALUES ('Inactivo', 'Usuario sin actividad.', '2026-07-20T11:25:45.879848', '2026-07-20T11:25:45.879848');
+INSERT INTO estado_usuario (nombre, descripcion, fecha_creacion, fecha_actualizacion) VALUES ('Egresado', 'Usuario egresado de la institución.', '2026-07-20T11:25:45.879849', '2026-07-20T11:25:45.879849');

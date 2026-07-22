@@ -275,5 +275,31 @@ public class Usuario {
                 ", activo=" + activo +
                 '}';
     }
+    
+    @PrePersist
+
+public void prePersist() {
+
+    this.fechaCreacion = LocalDateTime.now();
+
+    this.fechaActualizacion = LocalDateTime.now();
+
+    if (this.activo == null) {
+
+        this.activo = true;
+
+    }
+
+}
+
+@PreUpdate
+
+public void preUpdate() {
+
+    this.fechaActualizacion = LocalDateTime.now();
+
+}
+
+
 
 }

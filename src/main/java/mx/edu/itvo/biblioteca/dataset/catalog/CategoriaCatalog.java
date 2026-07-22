@@ -1,5 +1,11 @@
 package mx.edu.itvo.biblioteca.dataset.catalog;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import mx.edu.itvo.biblioteca.dataset.config.Config;
+
 /**
  * Catálogo oficial de categorías utilizadas por el Dataset Generator.
  *
@@ -14,7 +20,7 @@ package mx.edu.itvo.biblioteca.dataset.catalog;
  * </p>
  *
  * @author Conce
- * @version 1.0
+ * @version 2.0
  * @since 1.0
  */
 public final class CategoriaCatalog {
@@ -113,6 +119,46 @@ public final class CategoriaCatalog {
                     "Modelado matemático y simulación computacional.")
 
     };
+
+    /**
+     * Obtiene el catálogo de categorías.
+     *
+     * <p>
+     * Si la cantidad solicitada es mayor al catálogo base,
+     * se generan categorías adicionales automáticamente.
+     * </p>
+     *
+     * @return Lista de categorías.
+     */
+    public static List<CategoriaItem> getItems() {
+
+        List<CategoriaItem> categorias =
+                new ArrayList<>(Arrays.asList(ITEMS));
+
+        int total =
+                Math.max(
+                        Config.DEFAULT_TOTAL_CATEGORIAS,
+                        ITEMS.length);
+
+        for (int i = ITEMS.length + 1;
+                i <= total;
+                i++) {
+
+            categorias.add(
+
+                    new CategoriaItem(
+
+                            String.format("CAT%03d", i),
+
+                            "Categoría " + i,
+
+                            "Categoría generada automáticamente."));
+
+        }
+
+        return categorias;
+
+    }
 
     /**
      * Constructor privado para evitar instancias.

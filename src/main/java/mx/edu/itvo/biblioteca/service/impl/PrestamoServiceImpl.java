@@ -8,12 +8,14 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import mx.edu.itvo.biblioteca.constant.EstadoEjemplarConstantes;
+import mx.edu.itvo.biblioteca.constant.EstadoPrestamoConstantes;
 import mx.edu.itvo.biblioteca.constant.FolioConstantes;
 import mx.edu.itvo.biblioteca.dto.request.PrestamoRequestDTO;
 import mx.edu.itvo.biblioteca.dto.request.PrestamoUpdateDTO;
 import mx.edu.itvo.biblioteca.dto.response.PrestamoResponseDTO;
 import mx.edu.itvo.biblioteca.entity.Ejemplar;
 import mx.edu.itvo.biblioteca.entity.EstadoEjemplar;
+import mx.edu.itvo.biblioteca.entity.EstadoPrestamo;
 import mx.edu.itvo.biblioteca.entity.Prestamo;
 import mx.edu.itvo.biblioteca.entity.Usuario;
 import mx.edu.itvo.biblioteca.exception.InvalidOperationException;
@@ -21,74 +23,60 @@ import mx.edu.itvo.biblioteca.exception.ResourceNotFoundException;
 import mx.edu.itvo.biblioteca.mapper.PrestamoMapper;
 import mx.edu.itvo.biblioteca.repository.EjemplarRepository;
 import mx.edu.itvo.biblioteca.repository.EstadoEjemplarRepository;
+import mx.edu.itvo.biblioteca.repository.EstadoPrestamoRepository;
 import mx.edu.itvo.biblioteca.repository.PrestamoRepository;
 import mx.edu.itvo.biblioteca.repository.UsuarioRepository;
 import mx.edu.itvo.biblioteca.service.PrestamoService;
 import mx.edu.itvo.biblioteca.util.FolioGenerator;
 
 /**
- * Implementación del servicio para la gestión
- * de préstamos.
- *
- * Contiene la lógica de negocio del módulo
- * de préstamos de la biblioteca.
+ * Implementación del servicio de préstamos.
  *
  * @author Conce
- * @version 2.0
- * @since 2.0
+ * @version 4.0
+ * @since Sprint 17
  */
 @Service
 @Transactional
 public class PrestamoServiceImpl
         implements PrestamoService {
 
-    /**
-     * Repositorio de préstamos.
-     */
     private final PrestamoRepository prestamoRepository;
 
-    /**
-     * Repositorio de usuarios.
-     */
     private final UsuarioRepository usuarioRepository;
 
-    /**
-     * Repositorio de ejemplares.
-     */
     private final EjemplarRepository ejemplarRepository;
 
-    /**
-     * Repositorio de estados.
-     */
-    private final EstadoEjemplarRepository estadoEjemplarRepository;
+    private final EstadoEjemplarRepository
+            estadoEjemplarRepository;
 
-    /**
-     * Constructor.
-     *
-     * @param prestamoRepository Repositorio de préstamos.
-     * @param usuarioRepository Repositorio de usuarios.
-     * @param ejemplarRepository Repositorio de ejemplares.
-     * @param estadoEjemplarRepository Repositorio de estados.
-     */
+    private final EstadoPrestamoRepository
+            estadoPrestamoRepository;
+
     public PrestamoServiceImpl(
             PrestamoRepository prestamoRepository,
             UsuarioRepository usuarioRepository,
             EjemplarRepository ejemplarRepository,
-            EstadoEjemplarRepository estadoEjemplarRepository) {
+            EstadoEjemplarRepository estadoEjemplarRepository,
+            EstadoPrestamoRepository estadoPrestamoRepository) {
 
-        this.prestamoRepository = prestamoRepository;
-        this.usuarioRepository = usuarioRepository;
-        this.ejemplarRepository = ejemplarRepository;
+        this.prestamoRepository =
+                prestamoRepository;
+
+        this.usuarioRepository =
+                usuarioRepository;
+
+        this.ejemplarRepository =
+                ejemplarRepository;
+
         this.estadoEjemplarRepository =
                 estadoEjemplarRepository;
 
+        this.estadoPrestamoRepository =
+                estadoPrestamoRepository;
+
     }
 
-    /**
-     * Obtiene todos los préstamos.
-     *
-     * @return Lista de préstamos.
-     */
     @Override
     @Transactional(readOnly = true)
     public List<PrestamoResponseDTO> listar() {
@@ -98,11 +86,6 @@ public class PrestamoServiceImpl
 
     }
 
-    /**
-     * Obtiene los préstamos activos.
-     *
-     * @return Lista de préstamos.
-     */
     @Override
     @Transactional(readOnly = true)
     public List<PrestamoResponseDTO> listarActivos() {
@@ -112,28 +95,27 @@ public class PrestamoServiceImpl
 
     }
 
-    /**
-     * Busca un préstamo por su ID.
-     *
-     * @param id Identificador.
-     * @return Préstamo encontrado.
-     */
+    @Override
+    @Transactional(readOnly = true)
+    public List<PrestamoResponseDTO>
+            listarPendientesDevolucion() {
+
+        return PrestamoMapper.toResponseList(
+                prestamoRepository
+                        .findByFechaDevolucionRealIsNull());
+
+    }
+
     @Override
     @Transactional(readOnly = true)
     public PrestamoResponseDTO buscarPorId(
             Integer id) {
 
-        return PrestamoMapper.toResponse(
+        return PrestamoMapper.toResponseDTO(
                 obtenerPrestamo(id));
 
     }
 
-    /**
-     * Busca un préstamo por folio.
-     *
-     * @param folio Folio.
-     * @return Préstamo encontrado.
-     */
     @Override
     @Transactional(readOnly = true)
     public PrestamoResponseDTO buscarPorFolio(
@@ -148,141 +130,160 @@ public class PrestamoServiceImpl
                                         "folio",
                                         folio));
 
-        return PrestamoMapper.toResponse(
+        return PrestamoMapper.toResponseDTO(
                 prestamo);
 
     }
-
-    /**
-     * Busca los préstamos
-     * de un usuario.
-     *
-     * @param idUsuario Identificador.
-     * @return Lista de préstamos.
-     */
+    
     @Override
     @Transactional(readOnly = true)
     public List<PrestamoResponseDTO> buscarPorUsuario(
             Integer idUsuario) {
 
         return PrestamoMapper.toResponseList(
+
                 prestamoRepository
-                        .findByUsuarioIdUsuario(
+                        .findByUsuarioIdUsuarioOrderByFechaPrestamoDesc(
                                 idUsuario));
 
     }
 
-    /**
-     * Busca los préstamos
-     * de un ejemplar.
-     *
-     * @param idEjemplar Identificador.
-     * @return Lista de préstamos.
-     */
     @Override
     @Transactional(readOnly = true)
     public List<PrestamoResponseDTO> buscarPorEjemplar(
             Integer idEjemplar) {
 
         return PrestamoMapper.toResponseList(
+
                 prestamoRepository
                         .findByEjemplarIdEjemplar(
                                 idEjemplar));
 
     }
 
-    /**
-     * Obtiene los préstamos vencidos.
-     *
-     * @return Lista de préstamos.
-     */
     @Override
     @Transactional(readOnly = true)
     public List<PrestamoResponseDTO> buscarVencidos() {
 
         return PrestamoMapper.toResponseList(
+
                 prestamoRepository
-                        .findByFechaDevolucionProgramadaBefore(
+                        .findByFechaDevolucionProgramadaBeforeAndFechaDevolucionRealIsNull(
                                 LocalDate.now()));
 
     }
-        /**
-     * Registra un nuevo préstamo.
-     *
-     * @param request Información del préstamo.
-     * @return Préstamo registrado.
+
+    /**
+     * {@inheritDoc}
      */
     @Override
-    public PrestamoResponseDTO guardar(
+    public PrestamoResponseDTO registrarPrestamo(
             PrestamoRequestDTO request) {
 
-        Usuario usuario = obtenerUsuario(
-                request.getIdUsuario());
+        Usuario usuario =
+                obtenerUsuario(
+                        request.getIdUsuario());
 
-        validarUsuario(usuario);
+        validarUsuario(
+                usuario);
 
-        Ejemplar ejemplar = obtenerEjemplar(
-                request.getIdEjemplar());
+        validarLimitePrestamos(
+                usuario);
 
-        validarEjemplarActivo(ejemplar);
-        validarDisponibilidad(ejemplar);
+        Ejemplar ejemplar =
+                obtenerEjemplar(
+                        request.getIdEjemplar());
 
-        EstadoEjemplar estadoPrestado =
-                obtenerEstado(
+        validarEjemplarActivo(
+                ejemplar);
+
+        validarEstadoDisponible(
+                ejemplar);
+
+        validarDisponibilidad(
+                ejemplar);
+
+        EstadoEjemplar estadoEjemplarPrestado =
+                obtenerEstadoEjemplar(
                         EstadoEjemplarConstantes.PRESTADO);
 
+        EstadoPrestamo estadoPrestamoActivo =
+                obtenerEstadoPrestamo(
+                        EstadoPrestamoConstantes.ACTIVO);
+
         Prestamo prestamo =
-                PrestamoMapper.toEntity(request);
+                PrestamoMapper.toEntity(
+                        request);
 
-        prestamo.setUsuario(usuario);
-        prestamo.setEjemplar(ejemplar);
-        prestamo.setActivo(Boolean.TRUE);
-        prestamo.setFechaCreacion(
-                LocalDateTime.now());
+        prestamo.setUsuario(
+                usuario);
+
+        prestamo.setEjemplar(
+                ejemplar);
+
+        prestamo.setActivo(
+                Boolean.TRUE);
+        
+        Usuario bibliotecario =
+        obtenerUsuario(
+                request.getIdBibliotecario());
+
+        prestamo.setBibliotecario(
+                bibliotecario);
+        
+
+        prestamo.setEstadoPrestamo(
+                estadoPrestamoActivo);
+
+        prestamo.setFechaPrestamo(
+                LocalDate.now());
+
+        prestamo.setFechaDevolucionProgramada(
+                calcularFechaDevolucion(
+                        usuario));
 
         /*
-         * Primer guardado para obtener
-         * el identificador generado.
+         * Se genera un folio temporal para cumplir
+         * con la restricción NOT NULL.
          */
+        prestamo.setFolio(
+                "TMP-"
+                + System.currentTimeMillis());
+
         prestamo =
-                prestamoRepository.save(prestamo);
+                prestamoRepository.save(
+                        prestamo);
 
-        /*
-         * Se genera el folio definitivo.
-         */
         prestamo.setFolio(
                 FolioGenerator.generar(
                         FolioConstantes.PRESTAMO,
                         prestamo.getIdPrestamo()));
 
-        prestamo.setFechaActualizacion(
-                LocalDateTime.now());
-
         prestamo =
-                prestamoRepository.save(prestamo);
+                prestamoRepository.save(
+                        prestamo);
 
-        /*
-         * El ejemplar cambia a estado PRESTADO.
-         */
         ejemplar.setEstadoEjemplar(
-                estadoPrestado);
+                estadoEjemplarPrestado);
 
         ejemplar.setFechaActualizacion(
                 LocalDateTime.now());
 
-        ejemplarRepository.save(ejemplar);
+        ejemplarRepository.save(
+                ejemplar);
 
-        return PrestamoMapper.toResponse(
-                prestamo);
+Prestamo prestamoCompleto =
 
+        obtenerPrestamo(
+
+                prestamo.getIdPrestamo());
+
+return PrestamoMapper.toResponseDTO(
+
+        prestamoCompleto);
     }
         /**
-     * Actualiza la información editable
-     * de un préstamo.
-     *
-     * @param id Identificador del préstamo.
-     * @param request Información editable.
-     * @return Préstamo actualizado.
+     * {@inheritDoc}
      */
     @Override
     public PrestamoResponseDTO actualizar(
@@ -298,22 +299,23 @@ public class PrestamoServiceImpl
         prestamo.setObservaciones(
                 request.getObservaciones());
 
-        prestamo.setFechaActualizacion(
-                LocalDateTime.now());
-
         prestamo =
-                prestamoRepository.save(prestamo);
+                prestamoRepository.save(
+                        prestamo);
 
-        return PrestamoMapper.toResponse(
-                prestamo);
+       Prestamo prestamoCompleto =
+
+        obtenerPrestamo(
+
+                prestamo.getIdPrestamo());
+       return PrestamoMapper.toResponseDTO(
+
+        prestamoCompleto);
 
     }
 
     /**
-     * Registra la devolución de un préstamo.
-     *
-     * @param id Identificador del préstamo.
-     * @return Préstamo actualizado.
+     * {@inheritDoc}
      */
     @Override
     public PrestamoResponseDTO devolver(
@@ -322,7 +324,8 @@ public class PrestamoServiceImpl
         Prestamo prestamo =
                 obtenerPrestamo(id);
 
-        if (prestamo.getFechaDevolucionReal() != null) {
+        if (prestamo.getFechaDevolucionReal()
+                != null) {
 
             throw new InvalidOperationException(
                     "El préstamo ya fue devuelto.");
@@ -330,8 +333,12 @@ public class PrestamoServiceImpl
         }
 
         EstadoEjemplar estadoDisponible =
-                obtenerEstado(
+                obtenerEstadoEjemplar(
                         EstadoEjemplarConstantes.DISPONIBLE);
+
+        EstadoPrestamo estadoDevuelto =
+                obtenerEstadoPrestamo(
+                        EstadoPrestamoConstantes.DEVUELTO);
 
         Ejemplar ejemplar =
                 prestamo.getEjemplar();
@@ -342,28 +349,33 @@ public class PrestamoServiceImpl
         ejemplar.setFechaActualizacion(
                 LocalDateTime.now());
 
-        ejemplarRepository.save(ejemplar);
+        ejemplarRepository.save(
+                ejemplar);
 
         prestamo.setFechaDevolucionReal(
                 LocalDate.now());
 
-        prestamo.setFechaActualizacion(
-                LocalDateTime.now());
+        prestamo.setEstadoPrestamo(
+                estadoDevuelto);
 
         prestamo =
-                prestamoRepository.save(prestamo);
+                prestamoRepository.save(
+                        prestamo);
 
-        return PrestamoMapper.toResponse(
-                prestamo);
+Prestamo prestamoCompleto =
+
+        obtenerPrestamo(
+
+                prestamo.getIdPrestamo());
+
+return PrestamoMapper.toResponseDTO(
+
+        prestamoCompleto);
 
     }
 
     /**
-     * Renueva un préstamo.
-     *
-     * @param id Identificador del préstamo.
-     * @param dias Días adicionales.
-     * @return Préstamo actualizado.
+     * {@inheritDoc}
      */
     @Override
     public PrestamoResponseDTO renovar(
@@ -381,57 +393,64 @@ public class PrestamoServiceImpl
 
         }
 
-        if (prestamo.getFechaDevolucionReal() != null) {
+        if (prestamo.getFechaDevolucionReal()
+                != null) {
 
             throw new InvalidOperationException(
-                    "No es posible renovar un préstamo devuelto.");
+                    "No es posible renovar "
+                    + "un préstamo devuelto.");
 
         }
 
-        if (dias == null || dias <= 0) {
+        if (dias == null
+                || dias <= 0) {
 
             throw new InvalidOperationException(
-                    "Los días de renovación deben ser mayores que cero.");
+                    "Los días de renovación "
+                    + "deben ser mayores que cero.");
 
         }
 
         prestamo.setFechaDevolucionProgramada(
-                prestamo.getFechaDevolucionProgramada()
-                        .plusDays(dias));
 
-        prestamo.setFechaActualizacion(
-                LocalDateTime.now());
+                prestamo
+                        .getFechaDevolucionProgramada()
+                        .plusDays(
+                                dias));
 
-        prestamo =
-                prestamoRepository.save(prestamo);
-
-        return PrestamoMapper.toResponse(
+prestamo =
+        prestamoRepository.save(
                 prestamo);
+
+Prestamo prestamoCompleto =
+        obtenerPrestamo(
+                prestamo.getIdPrestamo());
+
+return PrestamoMapper.toResponseDTO(
+        prestamoCompleto);
+
+
 
     }
 
     /**
-     * Verifica si existe un folio.
-     *
-     * @param folio Folio del préstamo.
-     * @return {@code true} si existe;
-     *         {@code false} en caso contrario.
+     * {@inheritDoc}
      */
     @Override
     @Transactional(readOnly = true)
     public boolean existeFolio(
             String folio) {
 
-        return prestamoRepository.existsByFolio(
-                folio);
+        return prestamoRepository
+                .existsByFolio(
+                        folio);
 
     }
-    
-    /**
+        /**
      * Obtiene un usuario por su identificador.
      *
-     * @param id Identificador del usuario.
-     * @return Usuario encontrado.
+     * @param id Identificador.
+     * @return Usuario.
      */
     private Usuario obtenerUsuario(
             Integer id) {
@@ -446,10 +465,10 @@ public class PrestamoServiceImpl
     }
 
     /**
-     * Obtiene un ejemplar por su identificador.
+     * Obtiene un ejemplar.
      *
-     * @param id Identificador del ejemplar.
-     * @return Ejemplar encontrado.
+     * @param id Identificador.
+     * @return Ejemplar.
      */
     private Ejemplar obtenerEjemplar(
             Integer id) {
@@ -464,10 +483,10 @@ public class PrestamoServiceImpl
     }
 
     /**
-     * Obtiene un préstamo por su identificador.
+     * Obtiene un préstamo.
      *
-     * @param id Identificador del préstamo.
-     * @return Préstamo encontrado.
+     * @param id Identificador.
+     * @return Préstamo.
      */
     private Prestamo obtenerPrestamo(
             Integer id) {
@@ -482,12 +501,12 @@ public class PrestamoServiceImpl
     }
 
     /**
-     * Obtiene un estado de ejemplar por nombre.
+     * Obtiene un estado de ejemplar.
      *
-     * @param nombre Nombre del estado.
-     * @return Estado encontrado.
+     * @param nombre Nombre.
+     * @return Estado.
      */
-    private EstadoEjemplar obtenerEstado(
+    private EstadoEjemplar obtenerEstadoEjemplar(
             String nombre) {
 
         return estadoEjemplarRepository
@@ -501,7 +520,26 @@ public class PrestamoServiceImpl
     }
 
     /**
-     * Valida que el usuario se encuentre activo.
+     * Obtiene un estado de préstamo.
+     *
+     * @param nombre Nombre.
+     * @return Estado.
+     */
+    private EstadoPrestamo obtenerEstadoPrestamo(
+            String nombre) {
+
+        return estadoPrestamoRepository
+                .findByNombre(nombre)
+                .orElseThrow(() ->
+                        new ResourceNotFoundException(
+                                "EstadoPrestamo",
+                                "nombre",
+                                nombre));
+
+    }
+
+    /**
+     * Valida que el usuario esté activo.
      *
      * @param usuario Usuario.
      */
@@ -519,7 +557,7 @@ public class PrestamoServiceImpl
     }
 
     /**
-     * Valida que el ejemplar se encuentre activo.
+     * Valida que el ejemplar esté activo.
      *
      * @param ejemplar Ejemplar.
      */
@@ -531,6 +569,32 @@ public class PrestamoServiceImpl
 
             throw new InvalidOperationException(
                     "El ejemplar se encuentra inactivo.");
+
+        }
+
+    }
+
+    /**
+     * Valida que el ejemplar esté disponible.
+     *
+     * @param ejemplar Ejemplar.
+     */
+    private void validarEstadoDisponible(
+            Ejemplar ejemplar) {
+
+        if (ejemplar.getEstadoEjemplar() == null) {
+
+            throw new InvalidOperationException(
+                    "El ejemplar no tiene un estado asignado.");
+
+        }
+
+        if (!EstadoEjemplarConstantes.DISPONIBLE.equals(
+                ejemplar.getEstadoEjemplar()
+                        .getNombre())) {
+
+            throw new InvalidOperationException(
+                    "El ejemplar no se encuentra disponible.");
 
         }
 
@@ -556,6 +620,44 @@ public class PrestamoServiceImpl
                     "El ejemplar ya se encuentra prestado.");
 
         }
+
+    }
+
+    /**
+     * Valida el límite de préstamos.
+     *
+     * @param usuario Usuario.
+     */
+    private void validarLimitePrestamos(
+            Usuario usuario) {
+
+        int prestamosActivos =
+                prestamoRepository
+                        .findByUsuarioIdUsuarioAndFechaDevolucionRealIsNull(
+                                usuario.getIdUsuario())
+                        .size();
+
+        if (prestamosActivos >= 3) {
+
+            throw new InvalidOperationException(
+                    "El usuario ha alcanzado el límite "
+                    + "de préstamos activos.");
+
+        }
+
+    }
+
+    /**
+     * Calcula la fecha de devolución.
+     *
+     * @param usuario Usuario.
+     * @return Fecha.
+     */
+    private LocalDate calcularFechaDevolucion(
+            Usuario usuario) {
+
+        return LocalDate.now()
+                .plusDays(7);
 
     }
 

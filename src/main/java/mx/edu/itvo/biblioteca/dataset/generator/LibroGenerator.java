@@ -18,7 +18,7 @@ import mx.edu.itvo.biblioteca.dataset.util.RandomUtil;
  * Genera libros para el Dataset Generator.
  *
  * @author Conce
- * @version 1.0
+ * @version 2.0
  * @since 1.0
  */
 public final class LibroGenerator {
@@ -43,20 +43,28 @@ public final class LibroGenerator {
             List<EditorialData> editoriales,
             List<IdiomaData> idiomas) {
 
-        List<LibroData> libros = new ArrayList<>();
+        List<LibroData> libros =
+                new ArrayList<>();
 
         IsbnGenerator.reset();
+
+        int sequence = 1;
 
         for (int i = 1;
                 i <= Config.DEFAULT_TOTAL_LIBROS;
                 i++) {
 
-            LibroData libro = crearLibro(
-                    categorias,
-                    editoriales,
-                    idiomas);
+            LibroData libro =
+                    crearLibro(
+                            categorias,
+                            editoriales,
+                            idiomas);
 
-            libros.add(libro);
+            libro.setSequence(
+                    sequence++);
+
+            libros.add(
+                    libro);
 
         }
 

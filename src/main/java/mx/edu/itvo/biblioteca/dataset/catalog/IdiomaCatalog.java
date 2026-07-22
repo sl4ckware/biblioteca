@@ -1,5 +1,11 @@
 package mx.edu.itvo.biblioteca.dataset.catalog;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import mx.edu.itvo.biblioteca.dataset.config.Config;
+
 /**
  * Catálogo oficial de idiomas utilizados por el Dataset Generator.
  *
@@ -14,7 +20,7 @@ package mx.edu.itvo.biblioteca.dataset.catalog;
  * </p>
  *
  * @author Conce
- * @version 1.0
+ * @version 2.0
  * @since 1.0
  */
 public final class IdiomaCatalog {
@@ -47,6 +53,46 @@ public final class IdiomaCatalog {
             new IdiomaItem("ru", "Ruso")
 
     };
+
+    /**
+     * Obtiene el catálogo de idiomas.
+     *
+     * <p>
+     * Si la cantidad solicitada en la configuración es mayor al catálogo
+     * base, se generan idiomas adicionales automáticamente.
+     * </p>
+     *
+     * @return Lista de idiomas.
+     */
+    public static List<IdiomaItem> getItems() {
+
+        List<IdiomaItem> idiomas =
+                new ArrayList<>(Arrays.asList(ITEMS));
+
+        int total =
+                Math.max(
+                        Config.DEFAULT_TOTAL_IDIOMAS,
+                        ITEMS.length);
+
+        for (int i = ITEMS.length + 1;
+                i <= total;
+                i++) {
+
+            idiomas.add(
+
+                    new IdiomaItem(
+
+                            String.format(
+                                    "x%02d",
+                                    i),
+
+                            "Idioma " + i));
+
+        }
+
+        return idiomas;
+
+    }
 
     /**
      * Constructor privado.

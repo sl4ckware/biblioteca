@@ -1,0 +1,100 @@
+package mx.edu.itvo.biblioteca.dataset.model;
+
+/**
+ * Representa un estado de un ejemplar utilizado por el
+ * Dataset Generator.
+ *
+ * <p>
+ * Esta clase constituye un <strong>Mirror Model</strong> de la
+ * entidad {@code EstadoEjemplar} del backend.
+ * </p>
+ *
+ * <p>
+ * Su única responsabilidad consiste en representar la información
+ * necesaria para generar registros de la tabla
+ * {@code estado_ejemplar}, sin depender de Spring Boot,
+ * JPA o Jakarta Persistence.
+ * </p>
+ *
+ * @author Conce
+ * @version 2.0
+ * @since 1.0
+ */
+public class EstadoEjemplarData extends AbstractData {
+
+    /**
+     * Nombre del estado.
+     */
+    private String nombre;
+
+    /**
+     * Descripción del estado.
+     */
+    private String descripcion;
+
+    /**
+     * Constructor vacío.
+     */
+    public EstadoEjemplarData() {
+    }
+
+    /**
+     * Obtiene el nombre.
+     *
+     * @return Nombre.
+     */
+    public String getNombre() {
+        return nombre;
+    }
+
+    /**
+     * Establece el nombre.
+     *
+     * @param nombre Nombre.
+     */
+    public void setNombre(
+            String nombre) {
+
+        this.nombre = nombre;
+
+    }
+
+    /**
+     * Obtiene la descripción.
+     *
+     * @return Descripción.
+     */
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    /**
+     * Establece la descripción.
+     *
+     * @param descripcion Descripción.
+     */
+    public void setDescripcion(
+            String descripcion) {
+
+        this.descripcion = descripcion;
+
+    }
+
+    /**
+     * Devuelve una representación textual del objeto.
+     *
+     * @return Información del estado.
+     */
+    @Override
+    public String toString() {
+
+        return "EstadoEjemplarData{"
+                + "sequence=" + getSequence()
+                + ", nombre='" + nombre + '\''
+                + ", descripcion='" + descripcion + '\''
+                + ", activo=" + getActivo()
+                + '}';
+
+    }
+
+}

@@ -1,10 +1,10 @@
 package mx.edu.itvo.biblioteca.dataset.generator;
 
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 import mx.edu.itvo.biblioteca.dataset.catalog.CategoriaCatalog;
+import mx.edu.itvo.biblioteca.dataset.factory.DataFactory;
 import mx.edu.itvo.biblioteca.dataset.model.CategoriaData;
 
 /**
@@ -17,7 +17,7 @@ import mx.edu.itvo.biblioteca.dataset.model.CategoriaData;
  * </p>
  *
  * @author Conce
- * @version 1.0
+ * @version 3.0
  * @since 1.0
  */
 public final class CategoriaGenerator {
@@ -35,24 +35,31 @@ public final class CategoriaGenerator {
      */
     public static List<CategoriaData> generar() {
 
-        List<CategoriaData> categorias = new ArrayList<>();
+        List<CategoriaData> categorias =
+                new ArrayList<>();
 
-        LocalDateTime fechaActual = LocalDateTime.now();
+        int sequence = 1;
 
         for (CategoriaCatalog.CategoriaItem item
-                : CategoriaCatalog.ITEMS) {
+                : CategoriaCatalog.getItems()) {
 
-            CategoriaData categoria = new CategoriaData();
+            CategoriaData categoria =
+                    DataFactory.createCategoria();
 
-            categoria.setCodigo(item.codigo());
-            categoria.setNombre(item.nombre());
-            categoria.setDescripcion(item.descripcion());
+            categoria.setSequence(
+                    sequence++);
 
-            categoria.setActivo(Boolean.TRUE);
-            categoria.setFechaCreacion(fechaActual);
-            categoria.setFechaActualizacion(fechaActual);
+            categoria.setCodigo(
+                    item.codigo());
 
-            categorias.add(categoria);
+            categoria.setNombre(
+                    item.nombre());
+
+            categoria.setDescripcion(
+                    item.descripcion());
+
+            categorias.add(
+                    categoria);
 
         }
 

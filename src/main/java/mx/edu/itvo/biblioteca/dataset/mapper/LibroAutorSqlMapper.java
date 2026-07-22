@@ -8,7 +8,7 @@ import mx.edu.itvo.biblioteca.dataset.model.LibroAutorData;
  * Convierte una relación Libro-Autor en una sentencia SQL.
  *
  * @author Conce
- * @version 1.0
+ * @version 2.0
  * @since 1.0
  */
 public final class LibroAutorSqlMapper {
@@ -36,25 +36,21 @@ public final class LibroAutorSqlMapper {
             LibroAutorData relacion) {
 
         return """
-            INSERT INTO LIBRO_AUTOR
+            INSERT INTO libro_autor
             (
-                ACTIVO,
-                FECHA_CREACION,
-                FECHA_ACTUALIZACION,
-                ID_LIBRO,
-                ID_AUTOR
+                fecha_creacion,
+                fecha_actualizacion,
+                id_libro,
+                id_autor
             )
             VALUES
             (
-                %d,
                 '%s',
                 '%s',
                 %d,
                 %d
             );
             """.formatted(
-
-                relacion.getActivo() ? 1 : 0,
 
                 relacion.getFechaCreacion()
                         .format(FORMATTER),

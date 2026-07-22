@@ -1,10 +1,17 @@
 package mx.edu.itvo.biblioteca.dataset.catalog;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import mx.edu.itvo.biblioteca.dataset.config.Config;
+
 /**
  * Catálogo oficial de editoriales utilizadas por el Dataset Generator.
  *
  * @author Conce
- * @version 1.0
+ * @version 2.0
+ * @since 1.0
  */
 public final class EditorialCatalog {
 
@@ -72,9 +79,58 @@ public final class EditorialCatalog {
                     "support@codeacademy.com",
                     "https://www.codeacademy.com")
 
-            // Continúa hasta completar las 20 editoriales.
-
     };
+
+    /**
+     * Obtiene el catálogo de editoriales.
+     *
+     * <p>
+     * Si la cantidad solicitada en la configuración es mayor al catálogo
+     * base, se generan editoriales adicionales automáticamente.
+     * </p>
+     *
+     * @return Lista de editoriales.
+     */
+    public static List<EditorialItem> getItems() {
+
+        List<EditorialItem> editoriales =
+                new ArrayList<>(Arrays.asList(ITEMS));
+
+        int total =
+                Math.max(
+                        Config.DEFAULT_TOTAL_EDITORIALES,
+                        ITEMS.length);
+
+        for (int i = ITEMS.length + 1;
+                i <= total;
+                i++) {
+
+            editoriales.add(
+
+                    new EditorialItem(
+
+                            "Editorial " + i,
+
+                            "México",
+
+                            "Ciudad " + i,
+
+                            String.format(
+                                    "555%07d",
+                                    i),
+
+                            "editorial" + i
+                                    + "@dataset.com",
+
+                            "https://www.editorial"
+                                    + i
+                                    + ".com"));
+
+        }
+
+        return editoriales;
+
+    }
 
     /**
      * Constructor privado.

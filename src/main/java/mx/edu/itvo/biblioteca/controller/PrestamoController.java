@@ -1,39 +1,36 @@
 package mx.edu.itvo.biblioteca.controller;
 
-import io.swagger.v3.oas.annotations.tags.Tag;
 import java.util.List;
 
-import jakarta.validation.Valid;
-
-import mx.edu.itvo.biblioteca.dto.common.ApiResponse;
-import mx.edu.itvo.biblioteca.dto.response.PrestamoResponseDTO;
-import mx.edu.itvo.biblioteca.dto.request.PrestamoRequestDTO;
-import mx.edu.itvo.biblioteca.dto.request.PrestamoUpdateDTO;
-import mx.edu.itvo.biblioteca.service.PrestamoService;
-
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import jakarta.validation.Valid;
+import mx.edu.itvo.biblioteca.dto.request.PrestamoRequestDTO;
+import mx.edu.itvo.biblioteca.dto.request.PrestamoUpdateDTO;
+import mx.edu.itvo.biblioteca.dto.response.PrestamoResponseDTO;
+import mx.edu.itvo.biblioteca.service.PrestamoService;
+
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
+
 /**
- * Controlador REST para la gestión
- * de préstamos.
+ * Controlador REST para la gestión de préstamos.
  *
- * Expone los servicios del módulo
- * de préstamos.
+ * <p>
+ * Expone los endpoints para registrar,
+ * consultar, actualizar, devolver
+ * y renovar préstamos.
+ * </p>
  *
  * @author Conce
- * @version 2.0
- * @since 2.0
+ * @version 4.0
+ * @since Sprint 17
  */
-
-@Tag(
-    name = "📖 Préstamos",
-    description = "Gestión de préstamos de ejemplares."
-)
-
 @RestController
 @RequestMapping("/api/prestamos")
+@CrossOrigin(origins = "*")
 public class PrestamoController {
 
     /**
@@ -44,178 +41,169 @@ public class PrestamoController {
     /**
      * Constructor.
      *
-     * @param prestamoService Servicio de préstamos.
+     * @param prestamoService Servicio.
      */
     public PrestamoController(
             PrestamoService prestamoService) {
 
-        this.prestamoService = prestamoService;
+        this.prestamoService =
+                prestamoService;
 
     }
 
-    /**
-     * Obtiene todos los préstamos.
-     *
-     * @return Lista de préstamos.
-     */
+    @Operation(
+            summary = "Lista todos los préstamos",
+            description = "Obtiene el listado completo de préstamos registrados.")
+    @ApiResponses({
+        @ApiResponse(
+                responseCode = "200",
+                description = "Listado obtenido correctamente")
+    })
     @GetMapping
-    public ResponseEntity<ApiResponse<List<PrestamoResponseDTO>>> listar() {
+    public List<PrestamoResponseDTO> listar() {
 
-        return ResponseEntity.ok(
-                ApiResponse.success(
-                        prestamoService.listar(),
-                        "Listado de préstamos obtenido correctamente."));
+        return prestamoService.listar();
 
     }
 
     /**
-     * Obtiene únicamente los préstamos activos.
+     * Lista los préstamos activos.
      *
-     * @return Lista de préstamos activos.
+     * @return Lista.
      */
     @GetMapping("/activos")
-    public ResponseEntity<ApiResponse<List<PrestamoResponseDTO>>> listarActivos() {
+    public List<PrestamoResponseDTO>
+            listarActivos() {
 
-        return ResponseEntity.ok(
-                ApiResponse.success(
-                        prestamoService.listarActivos(),
-                        "Listado de préstamos activos obtenido correctamente."));
+        return prestamoService
+                .listarActivos();
 
     }
 
     /**
-     * Busca un préstamo por ID.
+     * Lista préstamos pendientes
+     * de devolución.
      *
-     * @param id Identificador.
-     * @return Préstamo encontrado.
+     * @return Lista.
      */
-    @GetMapping("/{id}")
-    public ResponseEntity<ApiResponse<PrestamoResponseDTO>> buscarPorId(
-            @PathVariable Integer id) {
+    @GetMapping("/pendientes")
+    public List<PrestamoResponseDTO>
+            listarPendientes() {
 
-        return ResponseEntity.ok(
-                ApiResponse.success(
-                        prestamoService.buscarPorId(id),
-                        "Préstamo encontrado correctamente."));
+        return prestamoService
+                .listarPendientesDevolucion();
 
     }
 
     /**
-     * Busca un préstamo por folio.
+     * Lista préstamos vencidos.
      *
-     * @param folio Folio.
-     * @return Préstamo encontrado.
-     */
-    @GetMapping("/folio/{folio}")
-    public ResponseEntity<ApiResponse<PrestamoResponseDTO>> buscarPorFolio(
-            @PathVariable String folio) {
-
-        return ResponseEntity.ok(
-                ApiResponse.success(
-                        prestamoService.buscarPorFolio(folio),
-                        "Préstamo encontrado correctamente."));
-
-    }
-
-    /**
-     * Obtiene los préstamos
-     * de un usuario.
-     *
-     * @param idUsuario Identificador del usuario.
-     * @return Lista de préstamos.
-     */
-    @GetMapping("/usuario/{idUsuario}")
-    public ResponseEntity<ApiResponse<List<PrestamoResponseDTO>>> buscarPorUsuario(
-            @PathVariable Integer idUsuario) {
-
-        return ResponseEntity.ok(
-                ApiResponse.success(
-                        prestamoService.buscarPorUsuario(idUsuario),
-                        "Préstamos del usuario obtenidos correctamente."));
-
-    }
-
-    /**
-     * Obtiene los préstamos
-     * de un ejemplar.
-     *
-     * @param idEjemplar Identificador del ejemplar.
-     * @return Lista de préstamos.
-     */
-    @GetMapping("/ejemplar/{idEjemplar}")
-    public ResponseEntity<ApiResponse<List<PrestamoResponseDTO>>> buscarPorEjemplar(
-            @PathVariable Integer idEjemplar) {
-
-        return ResponseEntity.ok(
-                ApiResponse.success(
-                        prestamoService.buscarPorEjemplar(idEjemplar),
-                        "Préstamos del ejemplar obtenidos correctamente."));
-
-    }
-
-    /**
-     * Obtiene los préstamos vencidos.
-     *
-     * @return Lista de préstamos.
+     * @return Lista.
      */
     @GetMapping("/vencidos")
-    public ResponseEntity<ApiResponse<List<PrestamoResponseDTO>>> buscarVencidos() {
+    public List<PrestamoResponseDTO>
+            listarVencidos() {
 
-        return ResponseEntity.ok(
-                ApiResponse.success(
-                        prestamoService.buscarVencidos(),
-                        "Préstamos vencidos obtenidos correctamente."));
+        return prestamoService
+                .buscarVencidos();
 
     }
-        /**
-     * Registra un nuevo préstamo.
-     *
-     * @param request Información del préstamo.
-     * @return Préstamo registrado.
-     */
+
+    @Operation(
+            summary = "Buscar préstamo por ID")
+    @ApiResponses({
+        @ApiResponse(
+                responseCode = "200",
+                description = "Préstamo encontrado"),
+        @ApiResponse(
+                responseCode = "404",
+                description = "Préstamo no encontrado")
+    })
+    @GetMapping("/{id}")
+    public PrestamoResponseDTO buscarPorId(
+            @PathVariable Integer id) {
+
+        return prestamoService
+                .buscarPorId(id);
+
+    }
+
+    @Operation(
+            summary = "Buscar préstamo por folio")
+    @GetMapping("/folio/{folio}")
+    public PrestamoResponseDTO buscarPorFolio(
+            @PathVariable String folio) {
+
+        return prestamoService
+                .buscarPorFolio(folio);
+
+    }
+
+    @Operation(
+        summary = "Historial de préstamos de un usuario")
+    @GetMapping("/usuario/{idUsuario}")
+    public List<PrestamoResponseDTO>
+            buscarPorUsuario(
+                    @PathVariable
+                    Integer idUsuario) {
+
+        return prestamoService
+                .buscarPorUsuario(
+                        idUsuario);
+
+    }
+
+    @Operation(
+        summary = "Préstamos de un ejemplar")
+    @GetMapping("/ejemplar/{idEjemplar}")
+    public List<PrestamoResponseDTO>
+            buscarPorEjemplar(
+                    @PathVariable
+                    Integer idEjemplar) {
+
+        return prestamoService
+                .buscarPorEjemplar(
+                        idEjemplar);
+
+    }
+
+    @Operation(
+            summary = "Registrar préstamo",
+            description = "Registra un nuevo préstamo para un usuario.")
+    @ApiResponses({
+        @ApiResponse(
+                responseCode = "201",
+                description = "Préstamo registrado correctamente"),
+        @ApiResponse(
+                responseCode = "400",
+                description = "Error de validación")
+    })
     @PostMapping
-    public ResponseEntity<ApiResponse<PrestamoResponseDTO>> guardar(
+    @ResponseStatus(HttpStatus.CREATED)
+    public PrestamoResponseDTO registrar(
             @Valid
             @RequestBody
             PrestamoRequestDTO request) {
 
-        PrestamoResponseDTO response =
-                prestamoService.guardar(request);
-
-        return ResponseEntity.status(HttpStatus.CREATED)
-                .body(
-                        ApiResponse.success(
-                                response,
-                                "Préstamo registrado correctamente."));
+        return prestamoService
+                .registrarPrestamo(
+                        request);
 
     }
 
-    /**
-     * Actualiza la información editable
-     * de un préstamo.
-     *
-     * @param id Identificador.
-     * @param request Información editable.
-     * @return Préstamo actualizado.
-     */
+    @Operation(
+        summary = "Actualizar préstamo")
     @PutMapping("/{id}")
-    public ResponseEntity<ApiResponse<PrestamoResponseDTO>> actualizar(
-            @PathVariable
-            Integer id,
-
+    public PrestamoResponseDTO actualizar(
+            @PathVariable Integer id,
             @Valid
             @RequestBody
             PrestamoUpdateDTO request) {
 
-        PrestamoResponseDTO response =
-                prestamoService.actualizar(
+        return prestamoService
+                .actualizar(
                         id,
                         request);
-
-        return ResponseEntity.ok(
-                ApiResponse.success(
-                        response,
-                        "Préstamo actualizado correctamente."));
 
     }
 
@@ -224,68 +212,30 @@ public class PrestamoController {
      * de un préstamo.
      *
      * @param id Identificador.
-     * @return Préstamo actualizado.
+     * @return Préstamo.
      */
-    @PatchMapping("/{id}/devolver")
-    public ResponseEntity<ApiResponse<PrestamoResponseDTO>> devolver(
-            @PathVariable
-            Integer id) {
+    @Operation(
+        summary = "Registrar devolución")
+    @PutMapping("/{id}/devolver")
+    public PrestamoResponseDTO devolver(
+            @PathVariable Integer id) {
 
-        PrestamoResponseDTO response =
-                prestamoService.devolver(id);
-
-        return ResponseEntity.ok(
-                ApiResponse.success(
-                        response,
-                        "Devolución registrada correctamente."));
+        return prestamoService
+                .devolver(id);
 
     }
 
-    /**
-     * Renueva un préstamo.
-     *
-     * @param id Identificador.
-     * @param dias Días adicionales.
-     * @return Préstamo actualizado.
-     */
-    @PatchMapping("/{id}/renovar/{dias}")
-    public ResponseEntity<ApiResponse<PrestamoResponseDTO>> renovar(
-            @PathVariable
-            Integer id,
+    @Operation(
+        summary = "Renovar préstamo")
+    @PutMapping("/{id}/renovar")
+    public PrestamoResponseDTO renovar(
+            @PathVariable Integer id,
+            @RequestParam Integer dias) {
 
-            @PathVariable
-            Integer dias) {
-
-        PrestamoResponseDTO response =
-                prestamoService.renovar(
+        return prestamoService
+                .renovar(
                         id,
                         dias);
-
-        return ResponseEntity.ok(
-                ApiResponse.success(
-                        response,
-                        "Préstamo renovado correctamente."));
-
-    }
-    
-    /**
-     * Verifica si existe un folio de préstamo.
-     *
-     * @param folio Folio del préstamo.
-     * @return true si existe.
-     */
-    @GetMapping("/existe/{folio}")
-    public ResponseEntity<ApiResponse<Boolean>> existeFolio(
-            @PathVariable
-            String folio) {
-
-        Boolean existe =
-                prestamoService.existeFolio(folio);
-
-        return ResponseEntity.ok(
-                ApiResponse.success(
-                        existe,
-                        "Consulta realizada correctamente."));
 
     }
 

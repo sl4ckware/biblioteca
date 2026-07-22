@@ -8,10 +8,16 @@ import mx.edu.itvo.biblioteca.dataset.factory.DataFactory;
 import mx.edu.itvo.biblioteca.dataset.model.IdiomaData;
 
 /**
- * Generador de idiomas.
+ * Genera los registros correspondientes a la tabla idioma.
+ *
+ * <p>
+ * Esta clase transforma la información del {@link IdiomaCatalog}
+ * en objetos {@link IdiomaData}, los cuales posteriormente serán
+ * utilizados por el SqlWriter para construir el archivo SQL.
+ * </p>
  *
  * @author Conce
- * @version 1.0
+ * @version 3.0
  * @since 1.0
  */
 public final class IdiomaGenerator {
@@ -32,10 +38,16 @@ public final class IdiomaGenerator {
         List<IdiomaData> idiomas =
                 new ArrayList<>();
 
-        for (IdiomaCatalog.IdiomaItem item
-                : IdiomaCatalog.ITEMS) {
+        int sequence = 1;
 
-            var idioma = DataFactory.createIdioma();
+        for (IdiomaCatalog.IdiomaItem item
+                : IdiomaCatalog.getItems()) {
+
+            IdiomaData idioma =
+                    DataFactory.createIdioma();
+
+            idioma.setSequence(
+                    sequence++);
 
             idioma.setCodigoIso(
                     item.codigoIso());
@@ -43,7 +55,8 @@ public final class IdiomaGenerator {
             idioma.setNombre(
                     item.nombre());
 
-            idiomas.add(idioma);
+            idiomas.add(
+                    idioma);
 
         }
 

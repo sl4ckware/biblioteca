@@ -9,12 +9,14 @@ import mx.edu.itvo.biblioteca.dto.response.PrestamoResponseDTO;
 /**
  * Servicio para la gestión de préstamos.
  *
- * Define las operaciones de negocio
- * relacionadas con los préstamos.
+ * <p>
+ * Define las operaciones de negocio relacionadas con el
+ * registro, consulta, devolución y renovación de préstamos.
+ * </p>
  *
  * @author Conce
- * @version 2.0
- * @since 2.0
+ * @version 4.0
+ * @since Sprint 17
  */
 public interface PrestamoService {
 
@@ -33,23 +35,33 @@ public interface PrestamoService {
     List<PrestamoResponseDTO> listarActivos();
 
     /**
+     * Obtiene los préstamos pendientes de devolución.
+     *
+     * @return Lista de préstamos.
+     */
+    List<PrestamoResponseDTO> listarPendientesDevolucion();
+
+    /**
      * Busca un préstamo por su identificador.
      *
      * @param id Identificador.
      * @return Préstamo encontrado.
      */
-    PrestamoResponseDTO buscarPorId(Integer id);
+    PrestamoResponseDTO buscarPorId(
+            Integer id);
 
     /**
-     * Busca un préstamo por folio.
+     * Busca un préstamo por su folio.
      *
      * @param folio Folio.
      * @return Préstamo encontrado.
      */
-    PrestamoResponseDTO buscarPorFolio(String folio);
+    PrestamoResponseDTO buscarPorFolio(
+            String folio);
 
     /**
-     * Obtiene los préstamos de un usuario.
+     * Obtiene el historial de préstamos
+     * de un usuario.
      *
      * @param idUsuario Identificador del usuario.
      * @return Lista de préstamos.
@@ -58,7 +70,8 @@ public interface PrestamoService {
             Integer idUsuario);
 
     /**
-     * Obtiene los préstamos de un ejemplar.
+     * Obtiene los préstamos registrados para
+     * un ejemplar.
      *
      * @param idEjemplar Identificador del ejemplar.
      * @return Lista de préstamos.
@@ -74,12 +87,12 @@ public interface PrestamoService {
     List<PrestamoResponseDTO> buscarVencidos();
 
     /**
-     * Registra un préstamo.
+     * Registra un nuevo préstamo.
      *
      * @param request Información del préstamo.
      * @return Préstamo registrado.
      */
-    PrestamoResponseDTO guardar(
+    PrestamoResponseDTO registrarPrestamo(
             PrestamoRequestDTO request);
 
     /**
@@ -95,9 +108,10 @@ public interface PrestamoService {
             PrestamoUpdateDTO request);
 
     /**
-     * Registra la devolución.
+     * Registra la devolución
+     * de un préstamo.
      *
-     * @param id Identificador.
+     * @param id Identificador del préstamo.
      * @return Préstamo actualizado.
      */
     PrestamoResponseDTO devolver(
