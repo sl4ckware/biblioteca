@@ -7,15 +7,30 @@ import mx.edu.itvo.biblioteca.dto.request.MultaUpdateDTO;
 import mx.edu.itvo.biblioteca.dto.response.MultaResponseDTO;
 
 /**
- * Servicio para la gestión
- * de multas.
+ * ============================================================
+ * Sprint 19
+ * Historia Técnica 19.2
  *
+ * Servicio de la entidad Multa.
+ * ============================================================
+ *
+ * <p>
  * Define las operaciones de negocio
- * del módulo de multas.
+ * correspondientes al módulo de multas.
+ * </p>
+ *
+ * <p>
+ * Esta interfaz establece el contrato que
+ * deberá implementar la capa de servicio,
+ * centralizando las reglas de negocio y
+ * coordinando la interacción entre los
+ * repositorios, entidades y DTO utilizados
+ * por el módulo.
+ * </p>
  *
  * @author Conce
- * @version 2.0
- * @since 2.0
+ * @version 3.0
+ * @since Sprint 19
  */
 public interface MultaService {
 
@@ -35,7 +50,8 @@ public interface MultaService {
     List<MultaResponseDTO> listarActivas();
 
     /**
-     * Busca una multa por ID.
+     * Busca una multa por
+     * su identificador.
      *
      * @param id Identificador.
      * @return Multa encontrada.
@@ -44,7 +60,8 @@ public interface MultaService {
             Integer id);
 
     /**
-     * Busca una multa por folio.
+     * Busca una multa por
+     * su folio.
      *
      * @param folio Folio.
      * @return Multa encontrada.
@@ -54,20 +71,20 @@ public interface MultaService {
 
     /**
      * Obtiene las multas
-     * de un préstamo.
+     * asociadas a un préstamo.
      *
      * @param idPrestamo Identificador.
-     * @return Lista.
+     * @return Lista de multas.
      */
     List<MultaResponseDTO> buscarPorPrestamo(
             Integer idPrestamo);
 
     /**
      * Obtiene las multas
-     * de un usuario.
+     * asociadas a un usuario.
      *
      * @param idUsuario Identificador.
-     * @return Lista.
+     * @return Lista de multas.
      */
     List<MultaResponseDTO> buscarPorUsuario(
             Integer idUsuario);
@@ -77,7 +94,7 @@ public interface MultaService {
      * por estado.
      *
      * @param estado Estado.
-     * @return Lista.
+     * @return Lista de multas.
      */
     List<MultaResponseDTO> buscarPorEstado(
             String estado);
@@ -104,10 +121,12 @@ public interface MultaService {
             MultaUpdateDTO request);
 
     /**
-     * Verifica si existe un folio.
+     * Verifica si existe
+     * un folio registrado.
      *
      * @param folio Folio.
-     * @return true si existe.
+     * @return {@code true} si existe;
+     *         {@code false} en caso contrario.
      */
     boolean existeFolio(
             String folio);

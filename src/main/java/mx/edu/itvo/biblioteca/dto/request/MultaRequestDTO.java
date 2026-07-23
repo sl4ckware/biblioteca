@@ -1,127 +1,202 @@
 package mx.edu.itvo.biblioteca.dto.request;
 
 import java.math.BigDecimal;
-import java.time.LocalDate;
 
 import jakarta.validation.constraints.DecimalMin;
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
 /**
+ * ============================================================
+ * Sprint 19
+ * Historia Técnica 19.2
+ *
  * DTO utilizado para registrar
  * una nueva multa.
+ * ============================================================
+ *
+ * <p>
+ * Este DTO únicamente contiene la información
+ * proporcionada por el cliente.
+ * </p>
+ *
+ * <p>
+ * Los datos de negocio como:
+ * </p>
+ *
+ * <ul>
+ *     <li>Estado.</li>
+ *     <li>Fecha de generación.</li>
+ *     <li>Fecha de pago.</li>
+ *     <li>Activo.</li>
+ *     <li>Folio.</li>
+ * </ul>
+ *
+ * <p>
+ * Son asignados automáticamente por el
+ * servicio durante el registro de la multa.
+ * </p>
  *
  * @author Conce
- * @version 2.0
- * @since 2.0
+ * @version 3.0
+ * @since Sprint 19
  */
 public class MultaRequestDTO {
 
     /**
      * Identificador del préstamo.
      */
-    @NotNull(message = "El préstamo es obligatorio.")
+    @NotNull(
+            message = "El préstamo es obligatorio.")
     private Integer idPrestamo;
 
     /**
-     * Importe de la multa.
+     * Monto de la multa.
      */
-    @NotNull(message = "El monto es obligatorio.")
-    @DecimalMin(value = "0.00",
-            message = "El monto debe ser mayor o igual a cero.")
+    @NotNull(
+            message = "El monto es obligatorio.")
+    @DecimalMin(
+            value = "0.01",
+            inclusive = true,
+            message = "El monto debe ser mayor que cero.")
     private BigDecimal monto;
 
     /**
      * Tipo de multa.
      */
-    @NotNull(message = "El tipo es obligatorio.")
-    @Size(max = 30)
+    @NotBlank(
+            message = "El tipo de multa es obligatorio.")
+    @Size(
+            max = 30,
+            message = "El tipo no debe superar los 30 caracteres.")
     private String tipo;
-
-    /**
-     * Estado de la multa.
-     */
-    @NotNull(message = "El estado es obligatorio.")
-    @Size(max = 20)
-    private String estado;
-
-    /**
-     * Fecha de generación.
-     */
-    @NotNull(message = "La fecha de generación es obligatoria.")
-    private LocalDate fechaGeneracion;
-
-    /**
-     * Fecha de pago.
-     */
-    private LocalDate fechaPago;
 
     /**
      * Observaciones.
      */
-    @Size(max = 255)
+    @Size(
+            max = 255,
+            message = "Las observaciones no deben superar los 255 caracteres.")
     private String observaciones;
 
     /**
-     * Constructor vacío.
+     * Constructor.
      */
     public MultaRequestDTO() {
+
     }
 
+    /**
+     * Obtiene el identificador
+     * del préstamo.
+     *
+     * @return Identificador.
+     */
     public Integer getIdPrestamo() {
+
         return idPrestamo;
+
     }
 
-    public void setIdPrestamo(Integer idPrestamo) {
+    /**
+     * Establece el identificador
+     * del préstamo.
+     *
+     * @param idPrestamo Identificador.
+     */
+    public void setIdPrestamo(
+            Integer idPrestamo) {
+
         this.idPrestamo = idPrestamo;
+
     }
 
+    /**
+     * Obtiene el monto.
+     *
+     * @return Monto.
+     */
     public BigDecimal getMonto() {
+
         return monto;
+
     }
 
-    public void setMonto(BigDecimal monto) {
+    /**
+     * Establece el monto.
+     *
+     * @param monto Monto.
+     */
+    public void setMonto(
+            BigDecimal monto) {
+
         this.monto = monto;
+
     }
 
+    /**
+     * Obtiene el tipo de multa.
+     *
+     * @return Tipo.
+     */
     public String getTipo() {
+
         return tipo;
+
     }
 
-    public void setTipo(String tipo) {
+    /**
+     * Establece el tipo de multa.
+     *
+     * @param tipo Tipo.
+     */
+    public void setTipo(
+            String tipo) {
+
         this.tipo = tipo;
+
     }
 
-    public String getEstado() {
-        return estado;
-    }
-
-    public void setEstado(String estado) {
-        this.estado = estado;
-    }
-
-    public LocalDate getFechaGeneracion() {
-        return fechaGeneracion;
-    }
-
-    public void setFechaGeneracion(LocalDate fechaGeneracion) {
-        this.fechaGeneracion = fechaGeneracion;
-    }
-
-    public LocalDate getFechaPago() {
-        return fechaPago;
-    }
-
-    public void setFechaPago(LocalDate fechaPago) {
-        this.fechaPago = fechaPago;
-    }
-
+    /**
+     * Obtiene las observaciones.
+     *
+     * @return Observaciones.
+     */
     public String getObservaciones() {
+
         return observaciones;
+
     }
 
-    public void setObservaciones(String observaciones) {
+    /**
+     * Establece las observaciones.
+     *
+     * @param observaciones Observaciones.
+     */
+    public void setObservaciones(
+            String observaciones) {
+
         this.observaciones = observaciones;
+
+    }
+
+    /**
+     * Devuelve una representación textual
+     * del DTO.
+     *
+     * @return Cadena representativa.
+     */
+    @Override
+    public String toString() {
+
+        return "MultaRequestDTO{"
+                + "idPrestamo=" + idPrestamo
+                + ", monto=" + monto
+                + ", tipo='" + tipo + '\''
+                + ", observaciones='" + observaciones + '\''
+                + '}';
+
     }
 
 }

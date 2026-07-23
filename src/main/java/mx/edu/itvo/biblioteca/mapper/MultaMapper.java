@@ -1,5 +1,6 @@
 package mx.edu.itvo.biblioteca.mapper;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -9,13 +10,40 @@ import mx.edu.itvo.biblioteca.dto.response.MultaResponseDTO;
 import mx.edu.itvo.biblioteca.entity.Multa;
 
 /**
- * Clase utilitaria para convertir
- * entre entidades y DTO del módulo
- * de multas.
+ * ============================================================
+ * Sprint 19
+ * Historia Técnica 19.2
+ *
+ * Mapper de la entidad Multa.
+ * ============================================================
+ *
+ * <p>
+ * Realiza la conversión entre la entidad
+ * {@link Multa} y los DTO utilizados por
+ * el módulo de multas.
+ * </p>
+ *
+ * <p>
+ * La información correspondiente a las
+ * reglas de negocio como:
+ * </p>
+ *
+ * <ul>
+ *     <li>Estado.</li>
+ *     <li>Fecha de generación.</li>
+ *     <li>Fecha de pago.</li>
+ *     <li>Activo.</li>
+ *     <li>Folio.</li>
+ * </ul>
+ *
+ * <p>
+ * Es administrada por el servicio y no por
+ * este mapper.
+ * </p>
  *
  * @author Conce
- * @version 2.0
- * @since 2.0
+ * @version 3.1
+ * @since Sprint 19
  */
 public final class MultaMapper {
 
@@ -23,20 +51,23 @@ public final class MultaMapper {
      * Constructor privado.
      */
     private MultaMapper() {
+
     }
 
     /**
      * Convierte un RequestDTO
      * en una entidad.
      *
-     * @param dto DTO de entrada.
+     * @param dto DTO recibido.
      * @return Entidad.
      */
     public static Multa toEntity(
             MultaRequestDTO dto) {
 
         if (dto == null) {
+
             return null;
+
         }
 
         Multa multa = new Multa();
@@ -46,15 +77,6 @@ public final class MultaMapper {
 
         multa.setTipo(
                 dto.getTipo());
-
-        multa.setEstado(
-                dto.getEstado());
-
-        multa.setFechaGeneracion(
-                dto.getFechaGeneracion());
-
-        multa.setFechaPago(
-                dto.getFechaPago());
 
         multa.setObservaciones(
                 dto.getObservaciones());
@@ -74,7 +96,9 @@ public final class MultaMapper {
             Multa multa) {
 
         if (multa == null) {
+
             return null;
+
         }
 
         MultaResponseDTO dto =
@@ -89,10 +113,12 @@ public final class MultaMapper {
         if (multa.getPrestamo() != null) {
 
             dto.setIdPrestamo(
-                    multa.getPrestamo().getIdPrestamo());
+                    multa.getPrestamo()
+                            .getIdPrestamo());
 
             dto.setFolioPrestamo(
-                    multa.getPrestamo().getFolio());
+                    multa.getPrestamo()
+                            .getFolio());
 
         }
 
@@ -132,10 +158,18 @@ public final class MultaMapper {
      * de entidades.
      *
      * @param multas Lista.
-     * @return Lista DTO.
+     * @return Lista de DTO.
      */
-    public static List<MultaResponseDTO> toResponseList(
-            List<Multa> multas) {
+    public static List<MultaResponseDTO>
+            toResponseList(
+                    List<Multa> multas) {
+
+        if (multas == null
+                || multas.isEmpty()) {
+
+            return Collections.emptyList();
+
+        }
 
         return multas.stream()
                 .map(MultaMapper::toResponse)
@@ -153,6 +187,13 @@ public final class MultaMapper {
     public static void updateEntity(
             MultaUpdateDTO dto,
             Multa multa) {
+
+        if (dto == null
+                || multa == null) {
+
+            return;
+
+        }
 
         multa.setEstado(
                 dto.getEstado());

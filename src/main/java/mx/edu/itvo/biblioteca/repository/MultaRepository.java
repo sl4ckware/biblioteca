@@ -10,15 +10,47 @@ import org.springframework.stereotype.Repository;
 import mx.edu.itvo.biblioteca.entity.Multa;
 
 /**
- * Repositorio para la gestión
- * de multas.
+ * ============================================================
+ * Sprint 19
+ * Historia Técnica 19.2
  *
- * Proporciona operaciones CRUD
- * y consultas específicas.
+ * Repositorio de la entidad Multa.
+ * ============================================================
+ *
+ * <p>
+ * Define las operaciones de acceso a datos
+ * para la entidad {@link Multa}, utilizando
+ * Spring Data JPA.
+ * </p>
+ *
+ * <p>
+ * Además de las operaciones CRUD heredadas de
+ * {@link JpaRepository}, proporciona consultas
+ * específicas para la administración del módulo
+ * de multas.
+ * </p>
+ *
+ * <ul>
+ *     <li>Búsqueda por folio.</li>
+ *     <li>Validación de folios existentes.</li>
+ *     <li>Consulta por préstamo.</li>
+ *     <li>Consulta por usuario.</li>
+ *     <li>Consulta por estado.</li>
+ *     <li>Consulta por fecha de generación.</li>
+ *     <li>Consulta por fecha de pago.</li>
+ *     <li>Obtención de multas activas.</li>
+ * </ul>
+ *
+ * <p>
+ * Todas las consultas utilizan los métodos
+ * derivados de Spring Data JPA, evitando la
+ * definición de consultas JPQL cuando no son
+ * necesarias.
+ * </p>
  *
  * @author Conce
- * @version 2.0
- * @since 2.0
+ * @version 3.0
+ * @since Sprint 19
  */
 @Repository
 public interface MultaRepository

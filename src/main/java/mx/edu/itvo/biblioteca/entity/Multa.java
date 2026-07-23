@@ -3,6 +3,7 @@ package mx.edu.itvo.biblioteca.entity;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.Objects;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -12,6 +13,8 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.PrePersist;
+import jakarta.persistence.PreUpdate;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.NotBlank;
@@ -67,7 +70,7 @@ public class Multa {
      * Importe.
      */
     @NotNull
-    @DecimalMin("0.00")
+    @DecimalMin(value = "0.00", inclusive = true)
     @Column(
             name = "MONTO",
             nullable = false,
@@ -159,6 +162,7 @@ public class Multa {
     public Multa() {
 
         this.activo = Boolean.TRUE;
+        this.fechaGeneracion = LocalDate.now();
 
     }
 
@@ -181,10 +185,46 @@ public class Multa {
         this.monto = monto;
         this.tipo = tipo;
         this.estado = estado;
-        this.fechaGeneracion = fechaGeneracion;
+        this.fechaGeneracion = fechaGeneracion != null
+                ? fechaGeneracion
+                : LocalDate.now();
         this.fechaPago = fechaPago;
         this.observaciones = observaciones;
-        this.activo = activo;
+        this.activo = activo != null
+                ? activo
+                : Boolean.TRUE;
+
+    }
+
+    /**
+     * Inicializa la entidad antes
+     * de persistirse.
+     */
+    @PrePersist
+    private void prePersist() {
+
+        LocalDateTime ahora = LocalDateTime.now();
+
+        if (activo == null) {
+            activo = Boolean.TRUE;
+        }
+
+        if (fechaGeneracion == null) {
+            fechaGeneracion = LocalDate.now();
+        }
+
+        fechaCreacion = ahora;
+        fechaActualizacion = ahora;
+
+    }
+
+    /**
+     * Actualiza la auditoría.
+     */
+    @PreUpdate
+    private void preUpdate() {
+
+        fechaActualizacion = LocalDateTime.now();
 
     }
 
@@ -213,9 +253,8 @@ public class Multa {
     public void setFolio(String folio) {
         this.folio = folio;
     }
-
-    /**
-     * Obtiene el préstamo.
+        /**
+     * Obtiene el préstamo asociado.
      *
      * @return Préstamo.
      */
@@ -269,33 +308,27 @@ public class Multa {
     /**
      * Obtiene la fecha de generación.
      *
-     * @return Fecha.
+     * @return Fecha de generación.
      */
     public LocalDate getFechaGeneracion() {
         return fechaGeneracion;
     }
 
-    public void setFechaGeneracion(
-            LocalDate fechaGeneracion) {
-
+    public void setFechaGeneracion(LocalDate fechaGeneracion) {
         this.fechaGeneracion = fechaGeneracion;
-
     }
 
     /**
      * Obtiene la fecha de pago.
      *
-     * @return Fecha.
+     * @return Fecha de pago.
      */
     public LocalDate getFechaPago() {
         return fechaPago;
     }
 
-    public void setFechaPago(
-            LocalDate fechaPago) {
-
+    public void setFechaPago(LocalDate fechaPago) {
         this.fechaPago = fechaPago;
-
     }
 
     /**
@@ -307,17 +340,14 @@ public class Multa {
         return observaciones;
     }
 
-    public void setObservaciones(
-            String observaciones) {
-
+    public void setObservaciones(String observaciones) {
         this.observaciones = observaciones;
-
     }
 
     /**
-     * Obtiene el estado del registro.
+     * Indica si el registro está activo.
      *
-     * @return Estado.
+     * @return Estado del registro.
      */
     public Boolean getActivo() {
         return activo;
@@ -330,54 +360,79 @@ public class Multa {
     /**
      * Obtiene la fecha de creación.
      *
-     * @return Fecha.
+     * @return Fecha de creación.
      */
     public LocalDateTime getFechaCreacion() {
         return fechaCreacion;
     }
 
-    public void setFechaCreacion(
-            LocalDateTime fechaCreacion) {
-
+    public void setFechaCreacion(LocalDateTime fechaCreacion) {
         this.fechaCreacion = fechaCreacion;
-
     }
 
     /**
      * Obtiene la fecha de actualización.
      *
-     * @return Fecha.
+     * @return Fecha de actualización.
      */
     public LocalDateTime getFechaActualizacion() {
         return fechaActualizacion;
     }
 
-    public void setFechaActualizacion(
-            LocalDateTime fechaActualizacion) {
-
+    public void setFechaActualizacion(LocalDateTime fechaActualizacion) {
         this.fechaActualizacion = fechaActualizacion;
+    }
+
+    /**
+     * Compara entidades por su identificador.
+     *
+     * @param obj Objeto a comparar.
+     * @return true si son iguales.
+     */
+    @Override
+    public boolean equals(Object obj) {
+
+        if (this == obj) {
+            return true;
+        }
+
+        if (!(obj instanceof Multa other)) {
+            return false;
+        }
+
+        return idMulta != null
+                && Objects.equals(idMulta, other.idMulta);
 
     }
 
     /**
-     * Devuelve una representación
-     * textual de la multa.
+     * Genera el hash de la entidad.
+     *
+     * @return Hash.
+     */
+    @Override
+    public int hashCode() {
+        return getClass().hashCode();
+    }
+
+    /**
+     * Representación textual de la entidad.
      *
      * @return Cadena representativa.
      */
     @Override
     public String toString() {
 
-        return "Multa{" +
-                "idMulta=" + idMulta +
-                ", folio='" + folio + '\'' +
-                ", monto=" + monto +
-                ", tipo='" + tipo + '\'' +
-                ", estado='" + estado + '\'' +
-                ", fechaGeneracion=" + fechaGeneracion +
-                ", fechaPago=" + fechaPago +
-                ", activo=" + activo +
-                '}';
+        return "Multa{"
+                + "idMulta=" + idMulta
+                + ", folio='" + folio + '\''
+                + ", monto=" + monto
+                + ", tipo='" + tipo + '\''
+                + ", estado='" + estado + '\''
+                + ", fechaGeneracion=" + fechaGeneracion
+                + ", fechaPago=" + fechaPago
+                + ", activo=" + activo
+                + '}';
 
     }
 

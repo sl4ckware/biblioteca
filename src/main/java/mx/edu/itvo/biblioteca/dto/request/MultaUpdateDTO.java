@@ -5,19 +5,38 @@ import java.time.LocalDate;
 import jakarta.validation.constraints.Size;
 
 /**
+ * ============================================================
+ * Sprint 19
+ * Historia Técnica 19.2
+ *
  * DTO utilizado para actualizar
  * la información editable de una multa.
+ * ============================================================
+ *
+ * <p>
+ * Este DTO contiene únicamente los datos
+ * que pueden modificarse después del
+ * registro de una multa.
+ * </p>
+ *
+ * <p>
+ * No permite modificar información de
+ * identificación ni datos generados por
+ * las reglas de negocio del sistema.
+ * </p>
  *
  * @author Conce
- * @version 2.0
- * @since 2.0
+ * @version 3.0
+ * @since Sprint 19
  */
 public class MultaUpdateDTO {
 
     /**
      * Estado de la multa.
      */
-    @Size(max = 20)
+    @Size(
+            max = 20,
+            message = "El estado no debe superar los 20 caracteres.")
     private String estado;
 
     /**
@@ -28,13 +47,16 @@ public class MultaUpdateDTO {
     /**
      * Observaciones.
      */
-    @Size(max = 255)
+    @Size(
+            max = 255,
+            message = "Las observaciones no deben superar los 255 caracteres.")
     private String observaciones;
 
     /**
      * Constructor vacío.
      */
     public MultaUpdateDTO() {
+
     }
 
     /**
@@ -43,7 +65,9 @@ public class MultaUpdateDTO {
      * @return Estado.
      */
     public String getEstado() {
+
         return estado;
+
     }
 
     /**
@@ -51,8 +75,11 @@ public class MultaUpdateDTO {
      *
      * @param estado Estado.
      */
-    public void setEstado(String estado) {
+    public void setEstado(
+            String estado) {
+
         this.estado = estado;
+
     }
 
     /**
@@ -61,7 +88,9 @@ public class MultaUpdateDTO {
      * @return Fecha de pago.
      */
     public LocalDate getFechaPago() {
+
         return fechaPago;
+
     }
 
     /**
@@ -82,7 +111,9 @@ public class MultaUpdateDTO {
      * @return Observaciones.
      */
     public String getObservaciones() {
+
         return observaciones;
+
     }
 
     /**
@@ -94,6 +125,23 @@ public class MultaUpdateDTO {
             String observaciones) {
 
         this.observaciones = observaciones;
+
+    }
+
+    /**
+     * Devuelve una representación textual
+     * del DTO.
+     *
+     * @return Cadena representativa.
+     */
+    @Override
+    public String toString() {
+
+        return "MultaUpdateDTO{"
+                + "estado='" + estado + '\''
+                + ", fechaPago=" + fechaPago
+                + ", observaciones='" + observaciones + '\''
+                + '}';
 
     }
 

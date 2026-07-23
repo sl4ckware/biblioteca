@@ -1,18 +1,19 @@
 package mx.edu.itvo.biblioteca.service.impl;
 
-import java.time.LocalDateTime;
 import java.util.List;
-import mx.edu.itvo.biblioteca.constant.FolioConstantes;
-
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import mx.edu.itvo.biblioteca.constant.EstadoMultaConstantes;
+import mx.edu.itvo.biblioteca.constant.FolioConstantes;
+import mx.edu.itvo.biblioteca.constant.TipoMultaConstantes;
 import mx.edu.itvo.biblioteca.dto.request.MultaRequestDTO;
 import mx.edu.itvo.biblioteca.dto.request.MultaUpdateDTO;
 import mx.edu.itvo.biblioteca.dto.response.MultaResponseDTO;
 import mx.edu.itvo.biblioteca.entity.Multa;
 import mx.edu.itvo.biblioteca.entity.Prestamo;
+import mx.edu.itvo.biblioteca.exception.InvalidOperationException;
 import mx.edu.itvo.biblioteca.exception.ResourceNotFoundException;
 import mx.edu.itvo.biblioteca.mapper.MultaMapper;
 import mx.edu.itvo.biblioteca.repository.MultaRepository;
@@ -21,15 +22,22 @@ import mx.edu.itvo.biblioteca.service.MultaService;
 import mx.edu.itvo.biblioteca.util.FolioGenerator;
 
 /**
- * Implementación del servicio
- * para la gestión de multas.
+ * ============================================================
+ * Sprint 19
+ * Historia Técnica 19.2
  *
- * Contiene la lógica de negocio
- * del módulo de multas.
+ * Implementación del servicio de multas.
+ * ============================================================
+ *
+ * <p>
+ * Centraliza las reglas de negocio para
+ * el registro, consulta y actualización
+ * de multas.
+ * </p>
  *
  * @author Conce
- * @version 2.0
- * @since 2.0
+ * @version 3.1
+ * @since Sprint 19
  */
 @Service
 @Transactional
@@ -39,32 +47,35 @@ public class MultaServiceImpl
     /**
      * Repositorio de multas.
      */
-    private final MultaRepository multaRepository;
+    private final MultaRepository
+            multaRepository;
 
     /**
      * Repositorio de préstamos.
      */
-    private final PrestamoRepository prestamoRepository;
+    private final PrestamoRepository
+            prestamoRepository;
 
     /**
      * Constructor.
      *
-     * @param multaRepository Repositorio de multas.
-     * @param prestamoRepository Repositorio de préstamos.
+     * @param multaRepository Repositorio.
+     * @param prestamoRepository Repositorio.
      */
     public MultaServiceImpl(
             MultaRepository multaRepository,
             PrestamoRepository prestamoRepository) {
 
-        this.multaRepository = multaRepository;
-        this.prestamoRepository = prestamoRepository;
+        this.multaRepository =
+                multaRepository;
+
+        this.prestamoRepository =
+                prestamoRepository;
 
     }
 
     /**
-     * Obtiene todas las multas.
-     *
-     * @return Lista de multas.
+     * {@inheritDoc}
      */
     @Override
     @Transactional(readOnly = true)
@@ -76,10 +87,7 @@ public class MultaServiceImpl
     }
 
     /**
-     * Obtiene únicamente
-     * las multas activas.
-     *
-     * @return Lista.
+     * {@inheritDoc}
      */
     @Override
     @Transactional(readOnly = true)
@@ -91,10 +99,7 @@ public class MultaServiceImpl
     }
 
     /**
-     * Busca una multa por ID.
-     *
-     * @param id Identificador.
-     * @return Multa.
+     * {@inheritDoc}
      */
     @Override
     @Transactional(readOnly = true)
@@ -107,10 +112,7 @@ public class MultaServiceImpl
     }
 
     /**
-     * Busca una multa por folio.
-     *
-     * @param folio Folio.
-     * @return Multa.
+     * {@inheritDoc}
      */
     @Override
     @Transactional(readOnly = true)
@@ -118,7 +120,8 @@ public class MultaServiceImpl
             String folio) {
 
         Multa multa =
-                multaRepository.findByFolio(folio)
+                multaRepository
+                        .findByFolio(folio)
                         .orElseThrow(() ->
                                 new ResourceNotFoundException(
                                         "Multa",
@@ -131,18 +134,16 @@ public class MultaServiceImpl
     }
 
     /**
-     * Obtiene las multas
-     * de un préstamo.
-     *
-     * @param idPrestamo Identificador.
-     * @return Lista.
+     * {@inheritDoc}
      */
     @Override
     @Transactional(readOnly = true)
-    public List<MultaResponseDTO> buscarPorPrestamo(
-            Integer idPrestamo) {
+    public List<MultaResponseDTO>
+            buscarPorPrestamo(
+                    Integer idPrestamo) {
 
         return MultaMapper.toResponseList(
+
                 multaRepository
                         .findByPrestamoIdPrestamo(
                                 idPrestamo));
@@ -150,18 +151,16 @@ public class MultaServiceImpl
     }
 
     /**
-     * Obtiene las multas
-     * de un usuario.
-     *
-     * @param idUsuario Identificador.
-     * @return Lista.
+     * {@inheritDoc}
      */
     @Override
     @Transactional(readOnly = true)
-    public List<MultaResponseDTO> buscarPorUsuario(
-            Integer idUsuario) {
+    public List<MultaResponseDTO>
+            buscarPorUsuario(
+                    Integer idUsuario) {
 
         return MultaMapper.toResponseList(
+
                 multaRepository
                         .findByPrestamoUsuarioIdUsuario(
                                 idUsuario));
@@ -169,27 +168,23 @@ public class MultaServiceImpl
     }
 
     /**
-     * Obtiene las multas
-     * por estado.
-     *
-     * @param estado Estado.
-     * @return Lista.
+     * {@inheritDoc}
      */
     @Override
     @Transactional(readOnly = true)
-    public List<MultaResponseDTO> buscarPorEstado(
-            String estado) {
+    public List<MultaResponseDTO>
+            buscarPorEstado(
+                    String estado) {
 
         return MultaMapper.toResponseList(
+
                 multaRepository.findByEstado(
                         estado));
 
     }
-        /**
-     * Registra una nueva multa.
-     *
-     * @param request Información de la multa.
-     * @return Multa registrada.
+
+    /**
+     * {@inheritDoc}
      */
     @Override
     public MultaResponseDTO guardar(
@@ -199,48 +194,26 @@ public class MultaServiceImpl
                 obtenerPrestamo(
                         request.getIdPrestamo());
 
+        validarRegistroMulta(
+                request,
+                prestamo);
+
         Multa multa =
-                MultaMapper.toEntity(request);
-
-        multa.setPrestamo(prestamo);
-
-        multa.setActivo(Boolean.TRUE);
-
-        multa.setFechaCreacion(
-                LocalDateTime.now());
-
-        /*
-         * Primer guardado para obtener
-         * el identificador generado.
-         */
-        multa =
-                multaRepository.save(multa);
-
-        /*
-         * Generación del folio definitivo.
-         */
-        multa.setFolio(
-                FolioGenerator.generar(
-                        FolioConstantes.MULTA,
-                        multa.getIdMulta()));
-
-        multa.setFechaActualizacion(
-                LocalDateTime.now());
+                crearMulta(
+                        request,
+                        prestamo);
 
         multa =
-                multaRepository.save(multa);
+                guardarConFolio(
+                        multa);
 
         return MultaMapper.toResponse(
                 multa);
 
     }
-        /**
-     * Actualiza la información editable
-     * de una multa.
-     *
-     * @param id Identificador de la multa.
-     * @param request Información editable.
-     * @return Multa actualizada.
+
+    /**
+     * {@inheritDoc}
      */
     @Override
     public MultaResponseDTO actualizar(
@@ -254,11 +227,9 @@ public class MultaServiceImpl
                 request,
                 multa);
 
-        multa.setFechaActualizacion(
-                LocalDateTime.now());
-
         multa =
-                multaRepository.save(multa);
+                multaRepository.save(
+                        multa);
 
         return MultaMapper.toResponse(
                 multa);
@@ -266,10 +237,7 @@ public class MultaServiceImpl
     }
 
     /**
-     * Verifica si existe un folio.
-     *
-     * @param folio Folio.
-     * @return true si existe.
+     * {@inheritDoc}
      */
     @Override
     @Transactional(readOnly = true)
@@ -280,11 +248,12 @@ public class MultaServiceImpl
                 folio);
 
     }
-        /**
-     * Obtiene una multa por su identificador.
+    
+    /**
+     * Obtiene una multa.
      *
-     * @param id Identificador de la multa.
-     * @return Multa encontrada.
+     * @param id Identificador.
+     * @return Multa.
      */
     private Multa obtenerMulta(
             Integer id) {
@@ -299,10 +268,10 @@ public class MultaServiceImpl
     }
 
     /**
-     * Obtiene un préstamo por su identificador.
+     * Obtiene un préstamo.
      *
-     * @param id Identificador del préstamo.
-     * @return Préstamo encontrado.
+     * @param id Identificador.
+     * @return Préstamo.
      */
     private Prestamo obtenerPrestamo(
             Integer id) {
@@ -313,6 +282,159 @@ public class MultaServiceImpl
                                 "Préstamo",
                                 "id",
                                 id));
+
+    }
+
+    /**
+     * Construye una nueva entidad
+     * Multa a partir del DTO recibido.
+     *
+     * @param request DTO de registro.
+     * @param prestamo Préstamo asociado.
+     * @return Entidad preparada para persistirse.
+     */
+    private Multa crearMulta(
+            MultaRequestDTO request,
+            Prestamo prestamo) {
+
+        Multa multa =
+                MultaMapper.toEntity(
+                        request);
+
+        multa.setPrestamo(
+                prestamo);
+
+        multa.setEstado(
+                EstadoMultaConstantes.PENDIENTE);
+
+        /*
+         * La entidad asignará automáticamente:
+         *
+         * - fechaGeneracion
+         * - activo
+         * - fechaCreacion
+         * - fechaActualizacion
+         */
+
+        multa.setFechaPago(
+                null);
+
+        /*
+         * Folio temporal para cumplir
+         * la restricción NOT NULL.
+         */
+        multa.setFolio(
+                "TMP-"
+                + System.currentTimeMillis());
+
+        return multa;
+
+    }
+
+    /**
+     * Persiste la multa y posteriormente
+     * genera el folio definitivo.
+     *
+     * @param multa Entidad.
+     * @return Multa persistida.
+     */
+    private Multa guardarConFolio(
+            Multa multa) {
+
+        multa =
+                multaRepository.save(
+                        multa);
+
+        multa.setFolio(
+                FolioGenerator.generar(
+                        FolioConstantes.MULTA,
+                        multa.getIdMulta()));
+
+        return multaRepository.save(
+                multa);
+
+    }
+
+    /**
+     * Centraliza las validaciones
+     * necesarias para registrar
+     * una nueva multa.
+     *
+     * @param request Información recibida.
+     * @param prestamo Préstamo asociado.
+     */
+    private void validarRegistroMulta(
+            MultaRequestDTO request,
+            Prestamo prestamo) {
+
+        validarPrestamo(
+                prestamo);
+
+        validarMonto(
+                request);
+
+        validarTipo(
+                request.getTipo());
+
+    }
+
+    /**
+     * Valida que el préstamo
+     * permanezca activo.
+     *
+     * @param prestamo Préstamo.
+     */
+    private void validarPrestamo(
+            Prestamo prestamo) {
+
+        if (!Boolean.TRUE.equals(
+                prestamo.getActivo())) {
+
+            throw new InvalidOperationException(
+                    "El préstamo se encuentra inactivo.");
+
+        }
+
+    }
+
+    /**
+     * Valida el monto
+     * de la multa.
+     *
+     * @param request Información.
+     */
+    private void validarMonto(
+            MultaRequestDTO request) {
+
+        if (request.getMonto() == null
+                || request.getMonto()
+                        .signum() <= 0) {
+
+            throw new InvalidOperationException(
+                    "El monto debe ser mayor que cero.");
+
+        }
+
+    }
+
+    /**
+     * Valida el tipo
+     * de multa.
+     *
+     * @param tipo Tipo.
+     */
+    private void validarTipo(
+            String tipo) {
+
+        if (!TipoMultaConstantes.ENTREGA_TARDIA.equals(tipo)
+                && !TipoMultaConstantes.DANO.equals(tipo)
+                && !TipoMultaConstantes.PERDIDA.equals(tipo)
+                && !TipoMultaConstantes.OTRO.equals(tipo)) {
+
+            throw new InvalidOperationException(
+                    "El tipo de multa no es válido.");
+
+        }
 
     }
 
