@@ -5717,6 +5717,171 @@ SET character_set_client = utf8mb4;
 SET character_set_client = @saved_cs_client;
 
 --
+-- Temporary table structure for view `vw_dashboard_alertas`
+--
+
+DROP TABLE IF EXISTS `vw_dashboard_alertas`;
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_alertas`*/;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8mb4;
+/*!50001 CREATE VIEW `vw_dashboard_alertas` AS SELECT
+ NULL AS `prestamos_vencidos`,
+ NULL AS `prestamos_vencen_hoy`,
+ NULL AS `reservas_activas`,
+ NULL AS `multas_pendientes`,
+ NULL AS `monto_pendiente`,
+ NULL AS `fecha_actualizacion` */;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary table structure for view `vw_dashboard_operacion_dia`
+--
+
+DROP TABLE IF EXISTS `vw_dashboard_operacion_dia`;
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_operacion_dia`*/;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8mb4;
+/*!50001 CREATE VIEW `vw_dashboard_operacion_dia` AS SELECT
+ NULL AS `prestamos_hoy`,
+ NULL AS `devoluciones_hoy`,
+ NULL AS `reservas_hoy`,
+ NULL AS `usuarios_registrados_hoy`,
+ NULL AS `multas_generadas_hoy`,
+ NULL AS `monto_multas_hoy`,
+ NULL AS `fecha_actualizacion` */;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary table structure for view `vw_dashboard_prestamos`
+--
+
+DROP TABLE IF EXISTS `vw_dashboard_prestamos`;
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_prestamos`*/;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8mb4;
+/*!50001 CREATE VIEW `vw_dashboard_prestamos` AS SELECT
+ NULL AS `anio`,
+ NULL AS `mes`,
+ NULL AS `nombre_mes`,
+ NULL AS `total_prestamos`,
+ NULL AS `prestamos_activos`,
+ NULL AS `prestamos_devueltos`,
+ NULL AS `prestamos_vencidos` */;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary table structure for view `vw_dashboard_reservas`
+--
+
+DROP TABLE IF EXISTS `vw_dashboard_reservas`;
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_reservas`*/;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8mb4;
+/*!50001 CREATE VIEW `vw_dashboard_reservas` AS SELECT
+ NULL AS `anio`,
+ NULL AS `mes`,
+ NULL AS `nombre_mes`,
+ NULL AS `total_reservas`,
+ NULL AS `reservas_activas`,
+ NULL AS `reservas_atendidas`,
+ NULL AS `reservas_canceladas`,
+ NULL AS `reservas_expiradas` */;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary table structure for view `vw_dashboard_resumen`
+--
+
+DROP TABLE IF EXISTS `vw_dashboard_resumen`;
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_resumen`*/;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8mb4;
+/*!50001 CREATE VIEW `vw_dashboard_resumen` AS SELECT
+ NULL AS `total_libros`,
+ NULL AS `total_usuarios`,
+ NULL AS `total_ejemplares`,
+ NULL AS `ejemplares_disponibles`,
+ NULL AS `ejemplares_prestados`,
+ NULL AS `ejemplares_mantenimiento`,
+ NULL AS `prestamos_activos`,
+ NULL AS `prestamos_vencidos`,
+ NULL AS `reservas_activas`,
+ NULL AS `multas_pendientes`,
+ NULL AS `monto_pendiente`,
+ NULL AS `fecha_actualizacion` */;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary table structure for view `vw_dashboard_top_autores`
+--
+
+DROP TABLE IF EXISTS `vw_dashboard_top_autores`;
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_top_autores`*/;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8mb4;
+/*!50001 CREATE VIEW `vw_dashboard_top_autores` AS SELECT
+ NULL AS `id_autor`,
+ NULL AS `autor`,
+ NULL AS `total_prestamos` */;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary table structure for view `vw_dashboard_top_categorias`
+--
+
+DROP TABLE IF EXISTS `vw_dashboard_top_categorias`;
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_top_categorias`*/;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8mb4;
+/*!50001 CREATE VIEW `vw_dashboard_top_categorias` AS SELECT
+ NULL AS `id_categoria`,
+ NULL AS `categoria`,
+ NULL AS `total_prestamos` */;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary table structure for view `vw_dashboard_top_editoriales`
+--
+
+DROP TABLE IF EXISTS `vw_dashboard_top_editoriales`;
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_top_editoriales`*/;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8mb4;
+/*!50001 CREATE VIEW `vw_dashboard_top_editoriales` AS SELECT
+ NULL AS `id_editorial`,
+ NULL AS `editorial`,
+ NULL AS `total_prestamos` */;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary table structure for view `vw_dashboard_top_idiomas`
+--
+
+DROP TABLE IF EXISTS `vw_dashboard_top_idiomas`;
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_top_idiomas`*/;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8mb4;
+/*!50001 CREATE VIEW `vw_dashboard_top_idiomas` AS SELECT
+ NULL AS `id_idioma`,
+ NULL AS `idioma`,
+ NULL AS `total_prestamos` */;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary table structure for view `vw_dashboard_top_libros`
+--
+
+DROP TABLE IF EXISTS `vw_dashboard_top_libros`;
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_top_libros`*/;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8mb4;
+/*!50001 CREATE VIEW `vw_dashboard_top_libros` AS SELECT
+ NULL AS `id_libro`,
+ NULL AS `titulo`,
+ NULL AS `total_prestamos` */;
+SET character_set_client = @saved_cs_client;
+
+--
 -- Temporary table structure for view `vw_ejemplares`
 --
 
@@ -5794,6 +5959,186 @@ SET character_set_client = @saved_cs_client;
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`%` SQL SECURITY DEFINER */
 /*!50001 VIEW `vw_autores_libros` AS select `l`.`id_libro` AS `id_libro`,`l`.`titulo` AS `titulo`,`a`.`id_autor` AS `id_autor`,concat(`a`.`nombre`,' ',`a`.`apellido_paterno`,' ',coalesce(`a`.`apellido_materno`,'')) AS `autor` from ((`libro` `l` join `libro_autor` `la` on(`l`.`id_libro` = `la`.`id_libro`)) join `autor` `a` on(`la`.`id_autor` = `a`.`id_autor`)) */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `vw_dashboard_alertas`
+--
+
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_alertas`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_uca1400_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`%` SQL SECURITY DEFINER */
+/*!50001 VIEW `vw_dashboard_alertas` AS select (select count(0) from (`prestamo` `p` join `estado_prestamo` `ep` on(`ep`.`id_estado_prestamo` = `p`.`id_estado_prestamo`)) where `p`.`activo` = 1 and `ep`.`nombre` = 'Vencido') AS `prestamos_vencidos`,(select count(0) from `prestamo` where `prestamo`.`activo` = 1 and `prestamo`.`fecha_devolucion_programada` = curdate()) AS `prestamos_vencen_hoy`,(select count(0) from (`reserva` `r` join `estado_reserva` `er` on(`er`.`id_estado_reserva` = `r`.`id_estado_reserva`)) where `r`.`activo` = 1 and `er`.`nombre` = 'Activa') AS `reservas_activas`,(select count(0) from `multa` where `multa`.`activo` = 0x01 and ucase(`multa`.`estado`) <> 'PAGADA') AS `multas_pendientes`,(select coalesce(sum(`multa`.`monto`),0) from `multa` where `multa`.`activo` = 0x01 and ucase(`multa`.`estado`) <> 'PAGADA') AS `monto_pendiente`,current_timestamp() AS `fecha_actualizacion` */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `vw_dashboard_operacion_dia`
+--
+
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_operacion_dia`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_uca1400_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`%` SQL SECURITY DEFINER */
+/*!50001 VIEW `vw_dashboard_operacion_dia` AS select (select count(0) from `prestamo` where `prestamo`.`activo` = 1 and `prestamo`.`fecha_prestamo` = curdate()) AS `prestamos_hoy`,(select count(0) from `prestamo` where `prestamo`.`activo` = 1 and `prestamo`.`fecha_devolucion_real` = curdate()) AS `devoluciones_hoy`,(select count(0) from `reserva` where `reserva`.`activo` = 1 and `reserva`.`fecha_reserva` = curdate()) AS `reservas_hoy`,(select count(0) from `usuario` where `usuario`.`activo` = 1 and cast(`usuario`.`fecha_creacion` as date) = curdate()) AS `usuarios_registrados_hoy`,(select count(0) from `multa` where `multa`.`activo` = 0x01 and cast(`multa`.`fecha_creacion` as date) = curdate()) AS `multas_generadas_hoy`,(select coalesce(sum(`multa`.`monto`),0) from `multa` where `multa`.`activo` = 0x01 and cast(`multa`.`fecha_creacion` as date) = curdate()) AS `monto_multas_hoy`,current_timestamp() AS `fecha_actualizacion` */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `vw_dashboard_prestamos`
+--
+
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_prestamos`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_uca1400_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`%` SQL SECURITY DEFINER */
+/*!50001 VIEW `vw_dashboard_prestamos` AS select year(`p`.`fecha_prestamo`) AS `anio`,month(`p`.`fecha_prestamo`) AS `mes`,monthname(`p`.`fecha_prestamo`) AS `nombre_mes`,count(0) AS `total_prestamos`,coalesce(sum(case when `ep`.`nombre` = 'Activo' then 1 else 0 end),0) AS `prestamos_activos`,coalesce(sum(case when `ep`.`nombre` = 'Devuelto' then 1 else 0 end),0) AS `prestamos_devueltos`,coalesce(sum(case when `ep`.`nombre` = 'Vencido' then 1 else 0 end),0) AS `prestamos_vencidos` from (`prestamo` `p` join `estado_prestamo` `ep` on(`ep`.`id_estado_prestamo` = `p`.`id_estado_prestamo`)) where `p`.`activo` = 1 group by year(`p`.`fecha_prestamo`),month(`p`.`fecha_prestamo`),monthname(`p`.`fecha_prestamo`) order by year(`p`.`fecha_prestamo`),month(`p`.`fecha_prestamo`) */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `vw_dashboard_reservas`
+--
+
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_reservas`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_uca1400_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`%` SQL SECURITY DEFINER */
+/*!50001 VIEW `vw_dashboard_reservas` AS select year(`r`.`fecha_reserva`) AS `anio`,month(`r`.`fecha_reserva`) AS `mes`,monthname(`r`.`fecha_reserva`) AS `nombre_mes`,count(0) AS `total_reservas`,coalesce(sum(case when `er`.`nombre` = 'Activa' then 1 else 0 end),0) AS `reservas_activas`,coalesce(sum(case when `er`.`nombre` = 'Atendida' then 1 else 0 end),0) AS `reservas_atendidas`,coalesce(sum(case when `er`.`nombre` = 'Cancelada' then 1 else 0 end),0) AS `reservas_canceladas`,coalesce(sum(case when `er`.`nombre` = 'Expirada' then 1 else 0 end),0) AS `reservas_expiradas` from (`reserva` `r` join `estado_reserva` `er` on(`er`.`id_estado_reserva` = `r`.`id_estado_reserva`)) where `r`.`activo` = 1 group by year(`r`.`fecha_reserva`),month(`r`.`fecha_reserva`),monthname(`r`.`fecha_reserva`) order by year(`r`.`fecha_reserva`),month(`r`.`fecha_reserva`) */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `vw_dashboard_resumen`
+--
+
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_resumen`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_uca1400_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`%` SQL SECURITY DEFINER */
+/*!50001 VIEW `vw_dashboard_resumen` AS select `l`.`total_libros` AS `total_libros`,`u`.`total_usuarios` AS `total_usuarios`,`e`.`total_ejemplares` AS `total_ejemplares`,`e`.`ejemplares_disponibles` AS `ejemplares_disponibles`,`e`.`ejemplares_prestados` AS `ejemplares_prestados`,`e`.`ejemplares_mantenimiento` AS `ejemplares_mantenimiento`,`p`.`prestamos_activos` AS `prestamos_activos`,`p`.`prestamos_vencidos` AS `prestamos_vencidos`,`r`.`reservas_activas` AS `reservas_activas`,`m`.`multas_pendientes` AS `multas_pendientes`,`m`.`monto_pendiente` AS `monto_pendiente`,current_timestamp() AS `fecha_actualizacion` from ((((((select count(0) AS `total_libros` from `libro` where `libro`.`activo` = 1) `l` join (select count(0) AS `total_usuarios` from `usuario` where `usuario`.`activo` = 1) `u`) join (select count(0) AS `total_ejemplares`,sum(case when `ee`.`nombre` = 'Disponible' then 1 else 0 end) AS `ejemplares_disponibles`,sum(case when `ee`.`nombre` = 'Prestado' then 1 else 0 end) AS `ejemplares_prestados`,sum(case when `ee`.`nombre` = 'Mantenimiento' then 1 else 0 end) AS `ejemplares_mantenimiento` from (`ejemplar` `e` join `estado_ejemplar` `ee` on(`ee`.`id_estado_ejemplar` = `e`.`id_estado_ejemplar`)) where `e`.`activo` = 1) `e`) join (select sum(case when `ep`.`nombre` = 'Activo' then 1 else 0 end) AS `prestamos_activos`,sum(case when `ep`.`nombre` = 'Vencido' then 1 else 0 end) AS `prestamos_vencidos` from (`prestamo` `p` join `estado_prestamo` `ep` on(`ep`.`id_estado_prestamo` = `p`.`id_estado_prestamo`)) where `p`.`activo` = 1) `p`) join (select sum(case when `er`.`nombre` = 'Activa' then 1 else 0 end) AS `reservas_activas` from (`reserva` `r` join `estado_reserva` `er` on(`er`.`id_estado_reserva` = `r`.`id_estado_reserva`)) where `r`.`activo` = 1) `r`) join (select count(0) AS `multas_pendientes`,coalesce(sum(`multa`.`monto`),0) AS `monto_pendiente` from `multa` where `multa`.`activo` = 0x01 and ucase(`multa`.`estado`) <> 'PAGADA') `m`) */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `vw_dashboard_top_autores`
+--
+
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_top_autores`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_uca1400_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`%` SQL SECURITY DEFINER */
+/*!50001 VIEW `vw_dashboard_top_autores` AS select `a`.`id_autor` AS `id_autor`,concat(`a`.`nombre`,' ',`a`.`apellido_paterno`,coalesce(concat(' ',`a`.`apellido_materno`),'')) AS `autor`,count(distinct `p`.`id_prestamo`) AS `total_prestamos` from ((((`prestamo` `p` join `ejemplar` `e` on(`e`.`id_ejemplar` = `p`.`id_ejemplar`)) join `libro` `l` on(`l`.`id_libro` = `e`.`id_libro`)) join `libro_autor` `la` on(`la`.`id_libro` = `l`.`id_libro`)) join `autor` `a` on(`a`.`id_autor` = `la`.`id_autor`)) where `p`.`activo` = 1 and `e`.`activo` = 1 and `l`.`activo` = 1 and `a`.`activo` = 1 group by `a`.`id_autor`,`a`.`nombre`,`a`.`apellido_paterno`,`a`.`apellido_materno` order by count(distinct `p`.`id_prestamo`) desc,concat(`a`.`nombre`,' ',`a`.`apellido_paterno`,coalesce(concat(' ',`a`.`apellido_materno`),'')) limit 10 */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `vw_dashboard_top_categorias`
+--
+
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_top_categorias`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_uca1400_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`%` SQL SECURITY DEFINER */
+/*!50001 VIEW `vw_dashboard_top_categorias` AS select `c`.`id_categoria` AS `id_categoria`,`c`.`nombre` AS `categoria`,count(0) AS `total_prestamos` from (((`prestamo` `p` join `ejemplar` `e` on(`e`.`id_ejemplar` = `p`.`id_ejemplar`)) join `libro` `l` on(`l`.`id_libro` = `e`.`id_libro`)) join `categoria` `c` on(`c`.`id_categoria` = `l`.`id_categoria`)) where `p`.`activo` = 1 group by `c`.`id_categoria`,`c`.`nombre` order by count(0) desc,`c`.`nombre` limit 10 */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `vw_dashboard_top_editoriales`
+--
+
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_top_editoriales`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_uca1400_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`%` SQL SECURITY DEFINER */
+/*!50001 VIEW `vw_dashboard_top_editoriales` AS select `ed`.`id_editorial` AS `id_editorial`,`ed`.`nombre` AS `editorial`,count(distinct `p`.`id_prestamo`) AS `total_prestamos` from (((`prestamo` `p` join `ejemplar` `e` on(`e`.`id_ejemplar` = `p`.`id_ejemplar`)) join `libro` `l` on(`l`.`id_libro` = `e`.`id_libro`)) join `editorial` `ed` on(`ed`.`id_editorial` = `l`.`id_editorial`)) where `p`.`activo` = 1 and `e`.`activo` = 1 and `l`.`activo` = 1 and `ed`.`activo` = 1 group by `ed`.`id_editorial`,`ed`.`nombre` order by count(distinct `p`.`id_prestamo`) desc,`ed`.`nombre` limit 10 */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `vw_dashboard_top_idiomas`
+--
+
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_top_idiomas`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_uca1400_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`%` SQL SECURITY DEFINER */
+/*!50001 VIEW `vw_dashboard_top_idiomas` AS select `i`.`id_idioma` AS `id_idioma`,`i`.`nombre` AS `idioma`,count(distinct `p`.`id_prestamo`) AS `total_prestamos` from (((`prestamo` `p` join `ejemplar` `e` on(`e`.`id_ejemplar` = `p`.`id_ejemplar`)) join `libro` `l` on(`l`.`id_libro` = `e`.`id_libro`)) join `idioma` `i` on(`i`.`id_idioma` = `l`.`id_idioma`)) where `p`.`activo` = 1 and `e`.`activo` = 1 and `l`.`activo` = 1 and `i`.`activo` = 1 group by `i`.`id_idioma`,`i`.`nombre` order by count(distinct `p`.`id_prestamo`) desc,`i`.`nombre` limit 10 */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `vw_dashboard_top_libros`
+--
+
+/*!50001 DROP VIEW IF EXISTS `vw_dashboard_top_libros`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_uca1400_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`%` SQL SECURITY DEFINER */
+/*!50001 VIEW `vw_dashboard_top_libros` AS select `l`.`id_libro` AS `id_libro`,`l`.`titulo` AS `titulo`,count(0) AS `total_prestamos` from ((`prestamo` `p` join `ejemplar` `e` on(`e`.`id_ejemplar` = `p`.`id_ejemplar`)) join `libro` `l` on(`l`.`id_libro` = `e`.`id_libro`)) where `p`.`activo` = 1 group by `l`.`id_libro`,`l`.`titulo` order by count(0) desc,`l`.`titulo` limit 10 */;
 /*!50001 SET character_set_client      = @saved_cs_client */;
 /*!50001 SET character_set_results     = @saved_cs_results */;
 /*!50001 SET collation_connection      = @saved_col_connection */;
@@ -5879,4 +6224,4 @@ SET character_set_client = @saved_cs_client;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-07-23  4:40:03
+-- Dump completed on 2026-07-24 14:12:49
