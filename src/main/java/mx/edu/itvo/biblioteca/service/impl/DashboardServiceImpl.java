@@ -1,131 +1,196 @@
 package mx.edu.itvo.biblioteca.service.impl;
 
-import java.time.LocalDateTime;
+import java.util.List;
 
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
-import mx.edu.itvo.biblioteca.dto.response.DashboardResponseDTO;
-import mx.edu.itvo.biblioteca.repository.EjemplarRepository;
-import mx.edu.itvo.biblioteca.repository.LibroRepository;
-import mx.edu.itvo.biblioteca.repository.MultaRepository;
-import mx.edu.itvo.biblioteca.repository.PrestamoRepository;
-import mx.edu.itvo.biblioteca.repository.UsuarioRepository;
+import mx.edu.itvo.biblioteca.dto.dashboard.DashboardDTO;
+import mx.edu.itvo.biblioteca.entity.dashboard.DashboardAlertasView;
+import mx.edu.itvo.biblioteca.entity.dashboard.DashboardOperacionDiaView;
+import mx.edu.itvo.biblioteca.entity.dashboard.DashboardPrestamoView;
+import mx.edu.itvo.biblioteca.entity.dashboard.DashboardReservaView;
+import mx.edu.itvo.biblioteca.entity.dashboard.DashboardResumenView;
+import mx.edu.itvo.biblioteca.entity.dashboard.DashboardTopAutorView;
+import mx.edu.itvo.biblioteca.entity.dashboard.DashboardTopCategoriaView;
+import mx.edu.itvo.biblioteca.entity.dashboard.DashboardTopEditorialView;
+import mx.edu.itvo.biblioteca.entity.dashboard.DashboardTopIdiomaView;
+import mx.edu.itvo.biblioteca.entity.dashboard.DashboardTopLibroView;
+import mx.edu.itvo.biblioteca.mapper.DashboardMapper;
+import mx.edu.itvo.biblioteca.repository.DashboardAlertasRepository;
+import mx.edu.itvo.biblioteca.repository.DashboardOperacionDiaRepository;
+import mx.edu.itvo.biblioteca.repository.DashboardPrestamoRepository;
+import mx.edu.itvo.biblioteca.repository.DashboardReservaRepository;
+import mx.edu.itvo.biblioteca.repository.DashboardResumenRepository;
+import mx.edu.itvo.biblioteca.repository.DashboardTopAutorRepository;
+import mx.edu.itvo.biblioteca.repository.DashboardTopCategoriaRepository;
+import mx.edu.itvo.biblioteca.repository.DashboardTopEditorialRepository;
+import mx.edu.itvo.biblioteca.repository.DashboardTopIdiomaRepository;
+import mx.edu.itvo.biblioteca.repository.DashboardTopLibroRepository;
 import mx.edu.itvo.biblioteca.service.DashboardService;
+import org.springframework.stereotype.Service;
 
 /**
- * Implementación del servicio
- * del Dashboard.
+ * Implementación del servicio principal del Dashboard.
  *
- * Obtiene indicadores generales
- * del sistema.
+ * <p>
+ * Obtiene información estadística mediante las SQL Views del módulo Dashboard
+ * y transforma los resultados utilizando DashboardMapper.
+ * </p>
  *
  * @author Conce
  * @version 2.0
  * @since 2.0
  */
 @Service
-@Transactional(readOnly = true)
-public class DashboardServiceImpl
-        implements DashboardService {
+public class DashboardServiceImpl implements DashboardService {
+
+    private final DashboardResumenRepository dashboardResumenRepository;
+
+    private final DashboardAlertasRepository dashboardAlertasRepository;
+
+    private final DashboardOperacionDiaRepository dashboardOperacionDiaRepository;
+
+    private final DashboardPrestamoRepository dashboardPrestamoRepository;
+
+    private final DashboardReservaRepository dashboardReservaRepository;
+
+    private final DashboardTopLibroRepository dashboardTopLibroRepository;
+
+    private final DashboardTopCategoriaRepository dashboardTopCategoriaRepository;
+
+    private final DashboardTopAutorRepository dashboardTopAutorRepository;
+
+    private final DashboardTopEditorialRepository dashboardTopEditorialRepository;
+
+    private final DashboardTopIdiomaRepository dashboardTopIdiomaRepository;
+
+    private final DashboardMapper dashboardMapper;
+
 
     /**
-     * Repositorio de libros.
-     */
-    private final LibroRepository libroRepository;
-
-    /**
-     * Repositorio de ejemplares.
-     */
-    private final EjemplarRepository ejemplarRepository;
-
-    /**
-     * Repositorio de usuarios.
-     */
-    private final UsuarioRepository usuarioRepository;
-
-    /**
-     * Repositorio de préstamos.
-     */
-    private final PrestamoRepository prestamoRepository;
-
-    /**
-     * Repositorio de multas.
-     */
-    private final MultaRepository multaRepository;
-
-    /**
-     * Constructor.
+     * Constructor con inyección de dependencias.
+     *
+     * @param dashboardResumenRepository repositorio resumen.
+     * @param dashboardAlertasRepository repositorio alertas.
+     * @param dashboardOperacionDiaRepository repositorio operación diaria.
+     * @param dashboardPrestamoRepository repositorio préstamos.
+     * @param dashboardReservaRepository repositorio reservas.
+     * @param dashboardTopLibroRepository repositorio top libros.
+     * @param dashboardTopCategoriaRepository repositorio top categorías.
+     * @param dashboardTopAutorRepository repositorio top autores.
+     * @param dashboardTopEditorialRepository repositorio top editoriales.
+     * @param dashboardTopIdiomaRepository repositorio top idiomas.
+     * @param dashboardMapper mapper del dashboard.
      */
     public DashboardServiceImpl(
-            LibroRepository libroRepository,
-            EjemplarRepository ejemplarRepository,
-            UsuarioRepository usuarioRepository,
-            PrestamoRepository prestamoRepository,
-            MultaRepository multaRepository) {
+            DashboardResumenRepository dashboardResumenRepository,
+            DashboardAlertasRepository dashboardAlertasRepository,
+            DashboardOperacionDiaRepository dashboardOperacionDiaRepository,
+            DashboardPrestamoRepository dashboardPrestamoRepository,
+            DashboardReservaRepository dashboardReservaRepository,
+            DashboardTopLibroRepository dashboardTopLibroRepository,
+            DashboardTopCategoriaRepository dashboardTopCategoriaRepository,
+            DashboardTopAutorRepository dashboardTopAutorRepository,
+            DashboardTopEditorialRepository dashboardTopEditorialRepository,
+            DashboardTopIdiomaRepository dashboardTopIdiomaRepository,
+            DashboardMapper dashboardMapper) {
 
-        this.libroRepository = libroRepository;
-        this.ejemplarRepository = ejemplarRepository;
-        this.usuarioRepository = usuarioRepository;
-        this.prestamoRepository = prestamoRepository;
-        this.multaRepository = multaRepository;
-
+        this.dashboardResumenRepository = dashboardResumenRepository;
+        this.dashboardAlertasRepository = dashboardAlertasRepository;
+        this.dashboardOperacionDiaRepository = dashboardOperacionDiaRepository;
+        this.dashboardPrestamoRepository = dashboardPrestamoRepository;
+        this.dashboardReservaRepository = dashboardReservaRepository;
+        this.dashboardTopLibroRepository = dashboardTopLibroRepository;
+        this.dashboardTopCategoriaRepository = dashboardTopCategoriaRepository;
+        this.dashboardTopAutorRepository = dashboardTopAutorRepository;
+        this.dashboardTopEditorialRepository = dashboardTopEditorialRepository;
+        this.dashboardTopIdiomaRepository = dashboardTopIdiomaRepository;
+        this.dashboardMapper = dashboardMapper;
     }
 
+
     /**
-     * Obtiene los indicadores
-     * del Dashboard.
+     * Obtiene la información completa del Dashboard.
      *
-     * @return Dashboard.
+     * @return DashboardDTO con indicadores y estadísticas.
      */
     @Override
-    public DashboardResponseDTO obtenerDashboard() {
+    public DashboardDTO obtenerDashboard() {
 
-        DashboardResponseDTO dashboard =
-                new DashboardResponseDTO();
-                /*
-         * Indicadores generales.
-         */
-        dashboard.setTotalLibros(
-                libroRepository.count());
+        DashboardDTO dashboardDTO = new DashboardDTO();
 
-        dashboard.setTotalEjemplares(
-                ejemplarRepository.count());
+        dashboardDTO.setResumen(
+                dashboardResumenRepository.findAll()
+                        .stream()
+                        .findFirst()
+                        .map(dashboardMapper::toResumen)
+                        .orElse(null));
 
-        dashboard.setTotalUsuarios(
-                usuarioRepository.count());
 
-        dashboard.setTotalPrestamos(
-                prestamoRepository.count());
+        dashboardDTO.setAlertas(
+                dashboardAlertasRepository.findAll()
+                        .stream()
+                        .findFirst()
+                        .map(dashboardMapper::toAlertas)
+                        .orElse(null));
 
-        dashboard.setTotalMultas(
-                multaRepository.count());
 
-        /*
-         * Los siguientes indicadores
-         * requieren consultas específicas
-         * en los repositorios. Como los
-         * módulos están congelados, por
-         * ahora se inicializan en cero.
-         */
-        dashboard.setEjemplaresDisponibles(0L);
+        dashboardDTO.setOperacionDia(
+                dashboardOperacionDiaRepository.findAll()
+                        .stream()
+                        .findFirst()
+                        .map(dashboardMapper::toOperacionDia)
+                        .orElse(null));
 
-        dashboard.setEjemplaresPrestados(0L);
 
-        dashboard.setUsuariosActivos(0L);
+        dashboardDTO.setPrestamos(
+                dashboardPrestamoRepository.findAll()
+                        .stream()
+                        .map(dashboardMapper::toGrafica)
+                        .toList());
 
-        dashboard.setUsuariosInactivos(0L);
 
-        dashboard.setPrestamosActivos(0L);
+        dashboardDTO.setReservas(
+                dashboardReservaRepository.findAll()
+                        .stream()
+                        .map(dashboardMapper::toGrafica)
+                        .toList());
 
-        /*
-         * Fecha de consulta.
-         */
-        dashboard.setFechaConsulta(
-                LocalDateTime.now());
 
-        return dashboard;
+        dashboardDTO.setTopLibros(
+                dashboardTopLibroRepository.findAll()
+                        .stream()
+                        .map(dashboardMapper::toTop)
+                        .toList());
 
+
+        dashboardDTO.setTopCategorias(
+                dashboardTopCategoriaRepository.findAll()
+                        .stream()
+                        .map(dashboardMapper::toTop)
+                        .toList());
+
+
+        dashboardDTO.setTopAutores(
+                dashboardTopAutorRepository.findAll()
+                        .stream()
+                        .map(dashboardMapper::toTop)
+                        .toList());
+
+
+        dashboardDTO.setTopEditoriales(
+                dashboardTopEditorialRepository.findAll()
+                        .stream()
+                        .map(dashboardMapper::toTop)
+                        .toList());
+
+
+        dashboardDTO.setTopIdiomas(
+                dashboardTopIdiomaRepository.findAll()
+                        .stream()
+                        .map(dashboardMapper::toTop)
+                        .toList());
+
+
+        return dashboardDTO;
     }
 
 }

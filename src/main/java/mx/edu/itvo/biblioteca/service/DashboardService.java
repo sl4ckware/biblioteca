@@ -1,24 +1,17 @@
 package mx.edu.itvo.biblioteca.service;
 
-import mx.edu.itvo.biblioteca.dto.response.DashboardResponseDTO;
+import mx.edu.itvo.biblioteca.dto.dashboard.DashboardDTO;
 
 /**
- * Servicio para la obtención
- * de indicadores generales
- * del sistema bibliotecario.
  *
- * @author Conce
- * @version 2.0
- * @since 2.0
  */
 public interface DashboardService {
 
     /**
-     * Obtiene la información
-     * general del Dashboard.
+     * Obtiene la información completa del Dashboard.
      *
-     * @return Indicadores del Dashboard.
+     * @return DashboardDTO con todos los indicadores y estadísticas.
      */
-    DashboardResponseDTO obtenerDashboard();
+    DashboardDTO obtenerDashboard();
 
 }

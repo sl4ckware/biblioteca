@@ -1,26 +1,39 @@
 package mx.edu.itvo.biblioteca.controller;
 
+
 import io.swagger.v3.oas.annotations.tags.Tag;
+
 import java.util.List;
 
 import jakarta.validation.Valid;
+
 
 import mx.edu.itvo.biblioteca.dto.common.ApiResponse;
 import mx.edu.itvo.biblioteca.dto.request.UsuarioRequestDTO;
 import mx.edu.itvo.biblioteca.dto.response.UsuarioResponseDTO;
 import mx.edu.itvo.biblioteca.service.UsuarioService;
 
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+
+
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+
+
 import org.springframework.web.bind.annotation.*;
+
+
 
 /**
  * Controlador REST para la gestión de usuarios.
  *
- * Expone los servicios CRUD de la entidad Usuario.
+ * Expone servicios CRUD y consulta
+ * del usuario autenticado.
  *
  * @author Conce
- * @version 2.0
+ * @version 2.1
  * @since 1.0
  */
 
@@ -29,190 +42,355 @@ import org.springframework.web.bind.annotation.*;
     description = "Administración de usuarios de la biblioteca."
 )
 
+
 @RestController
 @RequestMapping("/api/usuarios")
 @CrossOrigin(origins = "*")
 public class UsuarioController {
 
+
+
     /**
-     * Servicio de usuarios.
+     * Servicio usuarios.
      */
     private final UsuarioService usuarioService;
+
+
+
+
 
     /**
      * Constructor.
      *
-     * @param usuarioService Servicio de usuarios.
+     * @param usuarioService Servicio usuarios.
      */
-    public UsuarioController(UsuarioService usuarioService) {
-        this.usuarioService = usuarioService;
+    public UsuarioController(
+            UsuarioService usuarioService) {
+
+
+        this.usuarioService =
+                usuarioService;
+
     }
+
+
+
+
+
 
     /**
      * Obtiene todos los usuarios.
      *
-     * @return Lista de usuarios.
+     * @return Lista usuarios.
      */
     @GetMapping
     public ResponseEntity<ApiResponse<List<UsuarioResponseDTO>>> listar() {
+
 
         return ResponseEntity.ok(
                 new ApiResponse<>(
                         true,
                         "Listado de usuarios.",
-                        usuarioService.listar()));
+                        usuarioService.listar()
+                )
+        );
 
     }
 
+
+
+
+
+
+
     /**
-     * Obtiene únicamente los usuarios activos.
+     * Obtiene usuarios activos.
      *
-     * @return Lista de usuarios activos.
+     * @return Usuarios activos.
      */
     @GetMapping("/activos")
     public ResponseEntity<ApiResponse<List<UsuarioResponseDTO>>> listarActivos() {
+
 
         return ResponseEntity.ok(
                 new ApiResponse<>(
                         true,
                         "Listado de usuarios activos.",
-                        usuarioService.listarActivos()));
+                        usuarioService.listarActivos()
+                )
+        );
 
     }
 
+
+
+
+
+
+
     /**
-     * Busca un usuario por su identificador.
+     * Obtiene usuario autenticado actualmente.
+     *
+     * Endpoint utilizado por Dashboard.
+     *
+     * GET /api/usuarios/me
+     *
+     * @return Información usuario actual.
+     */
+    @GetMapping("/me")
+    public ResponseEntity<ApiResponse<UsuarioResponseDTO>> usuarioActual() {
+
+
+        Authentication authentication =
+                SecurityContextHolder
+                .getContext()
+                .getAuthentication();
+
+
+
+
+        String correo =
+                authentication.getName();
+
+
+
+
+        UsuarioResponseDTO usuario =
+                usuarioService.buscarPorCorreo(
+                        correo
+                );
+
+
+
+
+        return ResponseEntity.ok(
+                new ApiResponse<>(
+                        true,
+                        "Usuario autenticado.",
+                        usuario
+                )
+        );
+
+    }
+
+
+
+
+
+
+
+    /**
+     * Busca usuario por ID.
      *
      * @param id Identificador.
-     * @return Usuario encontrado.
+     * @return Usuario.
      */
     @GetMapping("/{id}")
     public ResponseEntity<ApiResponse<UsuarioResponseDTO>> buscarPorId(
             @PathVariable Integer id) {
 
+
         return ResponseEntity.ok(
                 new ApiResponse<>(
                         true,
                         "Usuario encontrado.",
-                        usuarioService.buscarPorId(id)));
+                        usuarioService.buscarPorId(id)
+                )
+        );
 
     }
 
+
+
+
+
+
+
     /**
-     * Busca un usuario por su matrícula.
+     * Busca usuario por matrícula.
      *
      * @param matricula Matrícula.
-     * @return Usuario encontrado.
+     * @return Usuario.
      */
     @GetMapping("/matricula/{matricula}")
     public ResponseEntity<ApiResponse<UsuarioResponseDTO>> buscarPorMatricula(
             @PathVariable String matricula) {
 
+
         return ResponseEntity.ok(
                 new ApiResponse<>(
                         true,
                         "Usuario encontrado.",
-                        usuarioService.buscarPorMatricula(matricula)));
+                        usuarioService.buscarPorMatricula(
+                                matricula
+                        )
+                )
+        );
 
     }
 
+
+
+
+
+
+
     /**
-     * Busca un usuario por su correo electrónico.
+     * Busca usuario por correo.
      *
-     * @param correo Correo electrónico.
-     * @return Usuario encontrado.
+     * @param correo Correo.
+     * @return Usuario.
      */
     @GetMapping("/correo/{correo}")
     public ResponseEntity<ApiResponse<UsuarioResponseDTO>> buscarPorCorreo(
             @PathVariable String correo) {
 
+
         return ResponseEntity.ok(
                 new ApiResponse<>(
                         true,
                         "Usuario encontrado.",
-                        usuarioService.buscarPorCorreo(correo)));
+                        usuarioService.buscarPorCorreo(
+                                correo
+                        )
+                )
+        );
 
     }
+
+
+
+
+
+
 
     /**
      * Busca usuarios por nombre.
      *
      * @param nombre Nombre.
-     * @return Lista de usuarios.
+     * @return Usuarios.
      */
     @GetMapping("/buscar")
     public ResponseEntity<ApiResponse<List<UsuarioResponseDTO>>> buscarPorNombre(
             @RequestParam String nombre) {
 
+
         return ResponseEntity.ok(
                 new ApiResponse<>(
                         true,
                         "Búsqueda realizada.",
-                        usuarioService.buscarPorNombre(nombre)));
+                        usuarioService.buscarPorNombre(
+                                nombre
+                        )
+                )
+        );
 
     }
 
+
+
+
+
+
+
     /**
-     * Registra un nuevo usuario.
+     * Guarda usuario.
      *
-     * @param request Información recibida.
-     * @return Usuario registrado.
+     * @param request Datos usuario.
+     * @return Usuario creado.
      */
     @PostMapping
     public ResponseEntity<ApiResponse<UsuarioResponseDTO>> guardar(
-            @Valid @RequestBody UsuarioRequestDTO request) {
+            @Valid
+            @RequestBody
+            UsuarioRequestDTO request) {
+
 
         UsuarioResponseDTO response =
-                usuarioService.guardar(request);
+                usuarioService.guardar(
+                        request
+                );
 
-        return ResponseEntity.status(HttpStatus.CREATED)
-                .body(new ApiResponse<>(
-                        true,
-                        "Usuario registrado correctamente.",
-                        response));
+
+        return ResponseEntity
+                .status(HttpStatus.CREATED)
+                .body(
+                        new ApiResponse<>(
+                                true,
+                                "Usuario registrado correctamente.",
+                                response
+                        )
+                );
 
     }
 
+
+
+
+
+
+
     /**
-     * Actualiza un usuario.
+     * Actualiza usuario.
      *
      * @param id Identificador.
-     * @param request Información actualizada.
+     * @param request Datos.
      * @return Usuario actualizado.
      */
     @PutMapping("/{id}")
     public ResponseEntity<ApiResponse<UsuarioResponseDTO>> actualizar(
             @PathVariable Integer id,
-            @Valid @RequestBody UsuarioRequestDTO request) {
+            @Valid
+            @RequestBody
+            UsuarioRequestDTO request) {
+
 
         UsuarioResponseDTO response =
-                usuarioService.actualizar(id, request);
+                usuarioService.actualizar(
+                        id,
+                        request
+                );
+
 
         return ResponseEntity.ok(
                 new ApiResponse<>(
                         true,
                         "Usuario actualizado correctamente.",
-                        response));
+                        response
+                )
+        );
 
     }
 
+
+
+
+
+
+
     /**
-     * Realiza la eliminación lógica de un usuario.
+     * Eliminación lógica usuario.
      *
      * @param id Identificador.
-     * @return Confirmación de la operación.
+     * @return Confirmación.
      */
     @DeleteMapping("/{id}")
     public ResponseEntity<ApiResponse<Void>> eliminar(
             @PathVariable Integer id) {
 
-        usuarioService.eliminar(id);
+
+        usuarioService.eliminar(
+                id
+        );
+
 
         return ResponseEntity.ok(
                 new ApiResponse<>(
                         true,
                         "Usuario eliminado correctamente.",
-                        null));
+                        null
+                )
+        );
 
     }
 

@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+
+    <title>
+        Dashboard - Sistema Integral de Biblioteca
+    </title>
+
+
+    <link rel="stylesheet"
+          href="css/dashboard.css">
+
+
+</head>
+
+
+<body>
+
+
+<header class="header-dashboard">
+
+
+    <div>
+
+        📚 Sistema Integral de Biblioteca
+
+    </div>
+
+
+
+    <div class="usuario-panel">
+
+
+        <span id="usuarioNombre">
+
+            Usuario
+
+        </span>
+
+
+        <span id="usuarioRol">
+
+            Rol
+
+        </span>
+
+
+        <button
+            id="btnLogout"
+            class="btn-reporte btn-print">
+
+
+            🚪 Cerrar sesión
+
+
+        </button>
+
+
+    </div>
+
+
+</header>
+
+
+
+
+
+<main class="dashboard-container">
+
+
+
+<section class="dashboard-title">
+
+
+<h1>
+
+    Dashboard Ejecutivo
+
+</h1>
+
+
+
+<p>
+
+    Indicadores generales del sistema bibliotecario.
+
+</p>
+
+
+
+<p id="fechaActualizacion">
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- REPORTES -->
+
+<section class="reportes-panel">
+
+
+<h2>
+
+📊 Reportes Ejecutivos
+
+</h2>
+
+
+
+
+<div class="reportes-buttons">
+
+
+
+<button
+id="btnPdf"
+class="btn-reporte btn-pdf">
+
+
+📄 Exportar PDF
+
+
+</button>
+
+
+
+
+
+<button
+id="btnExcel"
+class="btn-reporte btn-excel">
+
+
+📊 Exportar Excel
+
+
+</button>
+
+
+
+
+
+<button
+id="btnPrint"
+class="btn-reporte btn-print">
+
+
+🖨️ Vista imprimible
+
+
+</button>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- INDICADORES -->
+
+<section class="cards-dashboard">
+
+
+
+<div class="card">
+
+
+<span>
+📚
+</span>
+
+
+<h3>
+
+Total Libros
+
+</h3>
+
+
+<strong id="totalLibros">
+
+0
+
+</strong>
+
+
+<p>
+
+Libros registrados
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<span>
+👥
+</span>
+
+
+<h3>
+
+Usuarios
+
+</h3>
+
+
+<strong id="totalUsuarios">
+
+0
+
+</strong>
+
+
+<p>
+
+Usuarios registrados
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<span>
+📖
+</span>
+
+
+<h3>
+
+Ejemplares
+
+</h3>
+
+
+<strong id="totalEjemplares">
+
+0
+
+</strong>
+
+
+<p>
+
+Inventario físico
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+
+<span>
+✅
+</span>
+
+
+<h3>
+
+Disponibles
+
+</h3>
+
+
+<strong id="ejemplaresDisponibles">
+
+0
+
+</strong>
+
+
+<p>
+
+Ejemplares disponibles
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+
+<span>
+🔄
+</span>
+
+
+<h3>
+
+Préstamos Activos
+
+</h3>
+
+
+<strong id="prestamosActivos">
+
+0
+
+</strong>
+
+
+<p>
+
+Préstamos vigentes
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+
+<span>
+📌
+</span>
+
+
+<h3>
+
+Reservas Activas
+
+</h3>
+
+
+<strong id="reservasActivas">
+
+0
+
+</strong>
+
+
+<p>
+
+Reservas pendientes
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+
+<span>
+⚠️
+</span>
+
+
+<h3>
+
+Préstamos Vencidos
+
+</h3>
+
+
+<strong id="prestamosVencidos">
+
+0
+
+</strong>
+
+
+<p>
+
+Requieren atención
+
+</p>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- ALERTAS Y OPERACION -->
+
+<section class="dashboard-columns">
+
+
+
+<div class="panel alerta">
+
+
+<h2>
+
+⚠️ Alertas del Sistema
+
+</h2>
+
+
+<ul id="listaAlertas">
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="panel operacion">
+
+
+<h2>
+
+📅 Operación del Día
+
+</h2>
+
+
+<ul id="listaOperacion">
+
+</ul>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- GRAFICAS -->
+
+<section class="graficas">
+
+
+
+<canvas id="graficaPrestamos">
+
+</canvas>
+
+
+
+<canvas id="graficaCategorias">
+
+</canvas>
+
+
+
+<canvas id="graficaEditoriales">
+
+</canvas>
+
+
+
+<canvas id="graficaIdiomas">
+
+</canvas>
+
+
+
+</section>
+
+
+
+
+
+</main>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+<script src="js/dashboard.js"></script>
+
+
+</body>
+
+
+</html>

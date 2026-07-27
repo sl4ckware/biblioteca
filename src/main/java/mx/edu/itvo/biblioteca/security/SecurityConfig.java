@@ -84,7 +84,13 @@ public class SecurityConfig {
                         auth
 
                                 .requestMatchers(
-                                        "/api/auth/**")
+                                    "/api/auth/**",
+                                    "/login.html",
+                                    "/dashboard.html",
+                                    "/css/**",
+                                    "/js/**",
+                                    "/images/**",
+                                    "/favicon.ico")
                                 .permitAll()
 
                                 .requestMatchers(

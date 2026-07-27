@@ -1,12 +1,9 @@
 package mx.edu.itvo.biblioteca.controller;
 
 import io.swagger.v3.oas.annotations.tags.Tag;
-import jakarta.validation.Valid;
-
 import mx.edu.itvo.biblioteca.dto.common.ApiResponse;
-import mx.edu.itvo.biblioteca.dto.response.DashboardResponseDTO;
+import mx.edu.itvo.biblioteca.dto.dashboard.DashboardDTO;
 import mx.edu.itvo.biblioteca.service.DashboardService;
-
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,12 +19,10 @@ import org.springframework.web.bind.annotation.RestController;
  * @version 2.0
  * @since 2.0
  */
-
 @Tag(
-    name = "📊 Dashboard",
-    description = "Indicadores generales del Sistema Bibliotecario."
+        name = "📊 Dashboard",
+        description = "Indicadores generales del Sistema Bibliotecario."
 )
-
 @RestController
 @RequestMapping("/api/dashboard")
 public class DashboardController {
@@ -50,13 +45,12 @@ public class DashboardController {
     }
 
     /**
-     * Obtiene los indicadores
-     * generales del sistema.
+     * Obtiene los indicadores generales del sistema.
      *
      * @return Dashboard.
      */
     @GetMapping
-    public ResponseEntity<ApiResponse<DashboardResponseDTO>>
+    public ResponseEntity<ApiResponse<DashboardDTO>>
             obtenerDashboard() {
 
         return ResponseEntity.ok(

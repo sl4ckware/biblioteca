@@ -1,0 +1,564 @@
+/* ===================================
+   SISTEMA INTEGRAL DE BIBLIOTECA
+   DASHBOARD
+=================================== */
+
+
+* {
+
+    box-sizing: border-box;
+
+    font-family:
+        "Segoe UI",
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+
+}
+
+
+
+body {
+
+    margin: 0;
+
+    background:
+        #f4f7fb;
+
+    color:
+        #263238;
+
+}
+
+
+
+
+
+
+/* HEADER */
+
+.header-dashboard {
+
+    background:
+        #0d47a1;
+
+    color:
+        white;
+
+    padding:
+        20px;
+
+    font-size:
+        24px;
+
+    font-weight:
+        bold;
+
+}
+
+
+
+
+
+
+/* CONTENEDOR */
+
+.dashboard-container {
+
+    width:
+        95%;
+
+    margin:
+        auto;
+
+}
+
+
+
+
+
+
+.dashboard-title {
+
+    margin:
+        25px 0;
+
+}
+
+
+
+
+
+.dashboard-title h1 {
+
+    color:
+        #0d47a1;
+
+}
+
+
+
+
+
+
+/* ===================================
+   REPORTES
+=================================== */
+
+
+.reportes-panel {
+
+
+    background:
+        white;
+
+
+    padding:
+        20px;
+
+
+    border-radius:
+        12px;
+
+
+    box-shadow:
+        0 4px 12px
+        rgba(0,0,0,.10);
+
+
+    margin-bottom:
+        25px;
+
+}
+
+
+
+.reportes-panel h2 {
+
+
+    color:
+        #0d47a1;
+
+    margin-top:
+        0;
+
+}
+
+
+
+
+.reportes-buttons {
+
+
+    display:
+        flex;
+
+
+    gap:
+        15px;
+
+
+    flex-wrap:
+        wrap;
+
+}
+
+
+
+
+
+.btn-reporte {
+
+
+    border:
+        none;
+
+
+    padding:
+        12px 22px;
+
+
+    border-radius:
+        8px;
+
+
+    cursor:
+        pointer;
+
+
+    font-size:
+        15px;
+
+
+    font-weight:
+        bold;
+
+
+    transition:
+        .3s;
+
+}
+
+
+
+
+
+.btn-pdf {
+
+
+    background:
+        #c62828;
+
+
+    color:
+        white;
+
+}
+
+
+
+
+.btn-excel {
+
+
+    background:
+        #2e7d32;
+
+
+    color:
+        white;
+
+}
+
+
+
+
+.btn-print {
+
+
+    background:
+        #1565c0;
+
+
+    color:
+        white;
+
+}
+
+
+
+
+
+.btn-reporte:hover {
+
+
+    transform:
+        translateY(-2px);
+
+
+    opacity:
+        .85;
+
+}
+
+
+
+
+
+
+
+
+/* ===================================
+   TARJETAS DASHBOARD
+=================================== */
+
+
+.cards-dashboard {
+
+
+    display:
+        grid;
+
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(
+                220px,
+                1fr
+            )
+        );
+
+
+    gap:
+        20px;
+
+}
+
+
+
+
+
+.card {
+
+
+    background:
+        white;
+
+
+    padding:
+        20px;
+
+
+    border-radius:
+        12px;
+
+
+    text-align:
+        center;
+
+
+    box-shadow:
+        0 4px 12px
+        rgba(0,0,0,.10);
+
+}
+
+
+
+
+
+.card span {
+
+
+    font-size:
+        35px;
+
+}
+
+
+
+.card h3 {
+
+
+    color:
+        #0d47a1;
+
+}
+
+
+
+.card strong {
+
+
+    display:
+        block;
+
+
+    font-size:
+        35px;
+
+
+    color:
+        #1565c0;
+
+}
+
+
+
+
+
+
+
+/* ===================================
+   PANELES
+=================================== */
+
+
+.dashboard-columns {
+
+
+    display:
+        grid;
+
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(
+                300px,
+                1fr
+            )
+        );
+
+
+    gap:
+        20px;
+
+
+    margin-top:
+        25px;
+
+}
+
+
+
+
+
+.panel {
+
+
+    background:
+        white;
+
+
+    padding:
+        20px;
+
+
+    border-radius:
+        12px;
+
+
+    box-shadow:
+        0 4px 12px
+        rgba(0,0,0,.10);
+
+}
+
+
+
+
+.panel h2 {
+
+
+    color:
+        #0d47a1;
+
+}
+
+
+
+
+
+
+
+/* ===================================
+   GRAFICAS
+=================================== */
+
+
+.graficas {
+
+
+    margin-top:
+        30px;
+
+
+    background:
+        white;
+
+
+    padding:
+        20px;
+
+
+    border-radius:
+        12px;
+
+}
+
+
+
+
+
+canvas {
+
+
+    margin:
+        20px;
+
+}
+
+
+
+
+
+
+
+/* ===================================
+   IMPRESION EJECUTIVA
+=================================== */
+
+
+@media print {
+
+
+
+    body {
+
+
+        background:
+            white;
+
+    }
+
+
+
+    .header-dashboard {
+
+
+        background:
+            white;
+
+
+        color:
+            black;
+
+
+        border-bottom:
+            2px solid #000;
+
+    }
+
+
+
+
+    .reportes-panel {
+
+
+        display:
+            none;
+
+    }
+
+
+
+
+    button {
+
+
+        display:
+            none;
+
+    }
+
+
+
+    .card,
+    .panel {
+
+
+        box-shadow:
+            none;
+
+
+        border:
+            1px solid #ddd;
+
+    }
+
+
+
+}
