@@ -1,300 +1,299 @@
 # 📚 Sistema Integral de Biblioteca
 
-![Java](https://img.shields.io/badge/Java-17-orange)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6.x-green)
-![JWT](https://img.shields.io/badge/JWT-Autenticación-blue)
-![MariaDB](https://img.shields.io/badge/MariaDB-11.x-blue)
-![Maven](https://img.shields.io/badge/Maven-3.x-red)
-![Docker](https://img.shields.io/badge/Docker-Container-blue)
-![Estado](https://img.shields.io/badge/Sprint-19-success)
+Sistema web para la administración integral de una biblioteca,
+desarrollado con Java y Spring Boot bajo una arquitectura empresarial
+por capas.
 
----
+El sistema permite gestionar usuarios, libros, ejemplares, préstamos,
+reservas, dashboard e informes administrativos.
 
-# 📖 Descripción
+------------------------------------------------------------------------
 
-Sistema Integral de Biblioteca desarrollado con **Spring Boot**, aplicando arquitectura en capas, principios SOLID y buenas prácticas de desarrollo de software.
+# 📌 Descripción del Proyecto
 
-El proyecto permite administrar el proceso completo de una biblioteca:
+El Sistema Integral de Biblioteca tiene como objetivo digitalizar y
+optimizar los procesos principales de una biblioteca mediante una
+plataforma web segura y escalable.
 
-- Gestión de usuarios
-- Gestión de libros
-- Gestión de ejemplares
-- Préstamos
-- Reservas
-- Multas
-- Seguridad mediante JWT
-- API REST documentada con Swagger
+Principales funcionalidades:
 
----
+-   Administración de usuarios.
+-   Gestión del catálogo bibliográfico.
+-   Control de ejemplares.
+-   Gestión de préstamos.
+-   Gestión de reservas.
+-   Autenticación mediante JWT.
+-   Dashboard de indicadores.
+-   Generación de reportes PDF y Excel.
 
-# 🎯 Objetivo
+------------------------------------------------------------------------
 
-Desarrollar un sistema robusto, escalable y mantenible para la administración de bibliotecas, aplicando tecnologías modernas y arquitectura empresarial.
+# 🎯 Objetivo General
 
----
+Desarrollar un sistema integral para administrar los procesos
+bibliotecarios mediante una arquitectura basada en servicios REST,
+persistencia con JPA y seguridad JWT.
 
-# 🏗 Arquitectura
+------------------------------------------------------------------------
 
-El proyecto utiliza una arquitectura en capas.
+# 🚀 Características Principales
 
+## 👥 Usuarios
+
+-   Registro y actualización de usuarios.
+-   Consulta de información.
+-   Tipos de usuario.
+-   Estados de usuario.
+
+## 📖 Gestión Bibliográfica
+
+Incluye:
+
+-   Libros.
+-   Autores.
+-   Categorías.
+-   Editoriales.
+-   Idiomas.
+-   Ejemplares.
+
+## 🔐 Seguridad
+
+Implementación de:
+
+-   Spring Security.
+-   Autenticación JWT.
+-   Protección de endpoints.
+-   Control de acceso.
+
+## 🔄 Préstamos
+
+Permite:
+
+-   Registro de préstamos.
+-   Consulta de préstamos.
+-   Control de estados.
+-   Relación usuario - ejemplar - bibliotecario.
+
+## 📌 Reservas
+
+Incluye:
+
+-   Registro de reservas.
+-   Consulta.
+-   Control de estados.
+
+## 📊 Dashboard
+
+Indicadores:
+
+-   Total libros.
+-   Total ejemplares.
+-   Total usuarios.
+-   Préstamos activos.
+-   Reservas activas.
+-   Rankings bibliográficos.
+
+## 📄 Reportes
+
+Generación de:
+
+-   Dashboard PDF.
+-   Dashboard Excel.
+-   Reporte administrativo PDF.
+-   Reporte administrativo Excel.
+-   Reporte de préstamos.
+-   Reporte de reservas.
+
+------------------------------------------------------------------------
+
+# 🏗 Arquitectura del Sistema
+
+El sistema utiliza arquitectura por capas:
+
+``` text
+Cliente Web
+     |
+     |
+Controllers REST
+     |
+     |
+Services
+     |
+     |
+ServiceImpl
+     |
+     |
+Repositories
+     |
+     |
+JPA / Hibernate
+     |
+     |
+MariaDB
 ```
-Controller
-      │
-      ▼
-Service
-      │
-      ▼
-Repository
-      │
-      ▼
-Entity
-```
 
-Se emplean además:
+------------------------------------------------------------------------
 
-- DTO Request
-- DTO Response
-- Mapper Manual
-- Constantes
-- Excepciones Globales
-- Validaciones con Jakarta Validation
-
----
-
-# 🛠 Tecnologías
-
-- Java 17
-- Spring Boot 3.x
-- Spring Data JPA
-- Spring Security
-- JWT
-- MariaDB
-- Maven
-- Docker
-- Swagger / OpenAPI
-
----
-
-# 📂 Estructura del proyecto
-
-```
-src
-└── main
-    ├── java
-    │   └── mx.edu.itvo.biblioteca
-    │       ├── config
-    │       ├── constant
-    │       ├── controller
-    │       ├── dto
-    │       ├── entity
-    │       ├── exception
-    │       ├── mapper
-    │       ├── repository
-    │       ├── security
-    │       ├── service
-    │       └── util
-    │
-    └── resources
-        ├── application.properties
-        └── static
-```
-
----
-
-# ✅ Funcionalidades implementadas
-
-## Seguridad
-
-- JWT
-- Spring Security
-- Roles
-- Permisos
-- Endpoints protegidos
-
----
-
-## Catálogos
-
-- Categorías
-- Editoriales
-- Autores
-- Idiomas
-- Estados
-- Tipos de Usuario
-- Estados de Usuario
-
----
-
-## Biblioteca
-
-- Libros
-- Ejemplares
-- Control de inventario
-
----
-
-## Circulación
-
-- Préstamos
-- Reservas
-- Multas
-
----
+# 🛠 Tecnologías Utilizadas
 
 ## Backend
 
-- CRUD completos
-- Validaciones
-- Manejo global de excepciones
-- DTO
-- Mapper manual
-- Arquitectura en capas
+-   Java.
+-   Spring Boot.
+-   Spring Data JPA.
+-   Hibernate ORM.
+-   Spring Security.
+-   JWT.
+-   Maven.
 
----
+## Base de Datos
 
-# 📋 Estado del proyecto
+-   MariaDB.
 
-| Módulo | Estado |
-|---------|:------:|
-| Seguridad JWT | ✅ |
-| Usuarios | ✅ |
-| Roles | ✅ |
-| Categorías | ✅ |
-| Editoriales | ✅ |
-| Autores | ✅ |
-| Idiomas | ✅ |
-| Libros | ✅ |
-| Ejemplares | ✅ |
-| Préstamos | ✅ |
-| Reservas | ✅ |
-| Multas | ✅ |
+## Documentación API
 
----
+-   Swagger OpenAPI.
 
-# 🚀 Roadmap
+## Frontend
 
-## ✅ Sprint 1 - 19
+-   HTML5.
+-   JavaScript.
+-   Bootstrap.
+-   CSS.
 
-- Configuración del proyecto
-- Seguridad
-- Catálogos
-- Gestión bibliográfica
-- Ejemplares
-- Préstamos
-- Reservas
-- Multas
-- Refactorización
-- Optimización del backend
+## Herramientas
 
----
+-   Git.
+-   GitHub.
+-   Docker.
+-   NetBeans.
 
-## 🔄 Sprint 20
+------------------------------------------------------------------------
 
-- Dashboard
-- Reportes
-- Indicadores
-- Estadísticas
-- Vistas SQL
-- Exportación PDF
-- Exportación Excel
+# 📂 Estructura del Proyecto
 
----
-
-## 🔄 Sprint 21
-
-- Integración final
-- Optimización
-- Docker Compose
-- Pruebas finales
-- Despliegue
-
----
-
-# 📌 Características técnicas
-
-- Arquitectura Layered
-- Principios SOLID
-- Código documentado con JavaDoc
-- Separación DTO / Entity
-- Repositorios JPA
-- Validaciones centralizadas
-- Excepciones globales
-- Código desacoplado
-- Refactorización continua
-
----
-
-# 🐳 Docker
-
-El proyecto puede ejecutarse mediante Docker utilizando MariaDB como motor de base de datos.
-
----
-
-# 📑 API REST
-
-La documentación de la API se encuentra disponible mediante Swagger.
-
+``` text
+biblioteca
+|
+├── controller
+├── service
+├── service.impl
+├── repository
+├── entity
+├── dto
+├── security
+└── config
 ```
+
+------------------------------------------------------------------------
+
+# ⚙️ Requisitos
+
+-   Java 21 o superior.
+-   Maven.
+-   MariaDB.
+-   Git.
+
+------------------------------------------------------------------------
+
+# 🗄 Configuración de Base de Datos
+
+Crear la base de datos:
+
+``` sql
+CREATE DATABASE biblioteca;
+```
+
+Configurar:
+
+``` properties
+spring.datasource.url=jdbc:mariadb://localhost:3306/biblioteca
+spring.datasource.username=root
+spring.datasource.password=password
+```
+
+------------------------------------------------------------------------
+
+# ▶️ Ejecución
+
+Clonar repositorio:
+
+``` bash
+git clone https://github.com/sl4ckware/biblioteca.git
+```
+
+Ejecutar:
+
+``` bash
+./mvnw spring-boot:run
+```
+
+Sistema disponible:
+
+``` text
+http://localhost:8080
+```
+
+------------------------------------------------------------------------
+
+# 📘 Swagger
+
+Documentación API:
+
+``` text
 http://localhost:8080/swagger-ui/index.html
 ```
 
----
+------------------------------------------------------------------------
 
-# 🔐 Autenticación
+# 🧪 Pruebas Realizadas
 
-La API utiliza autenticación mediante JWT.
+Validaciones realizadas:
 
-Flujo:
+✅ Compilación Maven.
 
-```
-Login
+✅ Conexión MariaDB.
 
-↓
+✅ Autenticación JWT.
 
-JWT
+✅ Pruebas API REST.
 
-↓
+✅ Dashboard.
 
-Authorization Bearer Token
+✅ Generación PDF.
 
-↓
+✅ Generación Excel.
 
-Endpoints protegidos
-```
+------------------------------------------------------------------------
 
----
+# 📈 Estado del Proyecto
 
-# 📈 Estado actual
+Proyecto finalizado para entrega académica.
 
-**Versión**
+Módulos completados:
 
-```
-v1.0.0
-```
+-   Usuarios.
+-   Seguridad JWT.
+-   Catálogos.
+-   Libros.
+-   Ejemplares.
+-   Préstamos.
+-   Reservas.
+-   Dashboard.
+-   Reportes.
 
-**Sprint**
-
-```
-Sprint 19 Finalizado
-```
-
-**Estado**
-
-🟢 Backend completamente funcional
-
----
+------------------------------------------------------------------------
 
 # 👨‍💻 Autor
 
-**Conce**
+Conce
 
-Ingeniería en Sistemas Computacionales
+Proyecto académico:
 
-Instituto Tecnológico del Valle de Oaxaca
+**Sistema Integral de Biblioteca**
 
----
+------------------------------------------------------------------------
 
 # 📄 Licencia
 
-Proyecto desarrollado con fines académicos y de aprendizaje.
+Proyecto desarrollado con fines académicos.
